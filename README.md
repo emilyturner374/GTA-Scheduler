@@ -2,7 +2,7 @@
 
 ## GTA-Scheduler Web App
 
-#### Initial Setup
+### Initial Setup
 - Install Node.js at https://nodejs.org/en/
 - In the terminal, while in the project directory, install the required dependencies via ```pip install -r requirements.txt```
 - While in the frontend directory, install node modules via ```npm install``` and then run the build via ```npm run build```
