@@ -5,6 +5,8 @@
 ### Initial Setup
 - Install Node.js at https://nodejs.org/en/
 - In the terminal, while in the project directory, install the required dependencies via ```pip install -r requirements.txt```
+- Also, add a file to the project directory called .env
+    - This file will be used to hold sensitive information, such as usernames, passwords, secret keys, etc.
 - While in the frontend directory, install node modules via ```npm install``` and then run the build via ```npm run build```
 - Go back to the project directory and run the server via ```python manage.py runserver```
 - You should then see a url that leads to your localhost IP in the terminal, and enter that url into your web browser
