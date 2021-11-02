@@ -7,7 +7,7 @@
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Rectangle_19" x="131" y="942.95" width="1658" height="520.456" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_19" x="131" y="929.317" width="1658" height="520.456" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-2"/>
       <feFlood flood-opacity="0.161"/>
@@ -48,7 +48,7 @@
       <rect x="0.5" y="0.5" width="359" height="48" fill="none"/>
     </g>
     <text id="Course_name" data-name="Course name" transform="translate(277 467)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">Course name</tspan></text>
-    <g id="Group_46" data-name="Group 46" transform="translate(691.918 437)">
+    <g id="Group_46" data-name="Group 46" transform="translate(1020.246 437)">
       <g id="Rectangle_21" data-name="Rectangle 21" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
         <rect width="135.639" height="49" stroke="none"/>
         <rect x="0.5" y="0.5" width="134.639" height="48" fill="none"/>
@@ -57,17 +57,9 @@
         <path id="expand-arrow-icon-2" data-name="expand-arrow-icon" d="M3.549,12.906l-.8.71,8.487,7.55,8.487-7.55-.8-.71-7.689,6.84Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
       </g>
     </g>
-    <g id="Rectangle_21-2" data-name="Rectangle 21" transform="translate(891.518 437)" fill="#fff" stroke="#707070" stroke-width="1">
-      <rect width="135.639" height="49" stroke="none"/>
-      <rect x="0.5" y="0.5" width="134.639" height="48" fill="none"/>
-    </g>
-    <g id="expand-arrow-icon-3" data-name="expand-arrow-icon" transform="translate(1006.581 457.043)">
-      <path id="expand-arrow-icon-4" data-name="expand-arrow-icon" d="M3.549,12.906l-.8.71,8.487,7.55,8.487-7.55-.8-.71-7.689,6.84Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
-    </g>
-    <text id="to" transform="translate(854.488 466.527)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">to</tspan></text>
-    <text id="_10:00am" data-name="10:00am" transform="translate(705.14 465.101)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:00am</tspan></text>
-    <text id="_10:30am" data-name="10:30am" transform="translate(903.064 465.101)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:30am</tspan></text>
-    <g id="Group_52" data-name="Group 52" transform="translate(1090.497 437)">
+    <text id="to" transform="translate(1182.816 466.527)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">to</tspan></text>
+    <text id="_10:00am" data-name="10:00am" transform="translate(1033.468 465.101)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:00am</tspan></text>
+    <g id="Group_52" data-name="Group 52" transform="translate(1399.412 437)">
       <g id="Rectangle_22" data-name="Rectangle 22" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
         <rect width="226" height="49" stroke="none"/>
         <rect x="0.5" y="0.5" width="225" height="48" fill="none"/>
@@ -79,196 +71,37 @@
       <rect x="0.5" y="0.5" width="1639" height="85" fill="none"/>
     </g>
     <text id="Student_List" data-name="Student List" transform="translate(876 279)" font-size="30" font-family="Helvetica"><tspan x="0" y="0">Student List</tspan></text>
-    <g id="Rectangle_18-2" data-name="Rectangle 18" transform="translate(265.307 571.903)" fill="#fff" stroke="#242424" stroke-width="1">
-      <rect width="360.693" height="48.347" stroke="none"/>
-      <rect x="0.5" y="0.5" width="359.693" height="47.347" fill="none"/>
-    </g>
-    <text id="Student_name-2" data-name="Student name" transform="translate(276.05 600.004)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Student name</tspan></text>
-    <g id="Rectangle_20-2" data-name="Rectangle 20" transform="translate(265.307 643.08)" fill="#fff" stroke="#242424" stroke-width="1">
-      <rect width="360.693" height="48.347" stroke="none"/>
-      <rect x="0.5" y="0.5" width="359.693" height="47.347" fill="none"/>
-    </g>
-    <text id="Course_name-2" data-name="Course name" transform="translate(276.05 672.181)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">Course name</tspan></text>
-    <g id="Group_46-2" data-name="Group 46" transform="translate(692.258 643.08)">
-      <g id="Rectangle_21-3" data-name="Rectangle 21" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
-        <rect width="135.639" height="48.347" stroke="none"/>
-        <rect x="0.5" y="0.5" width="134.639" height="47.347" fill="none"/>
-      </g>
-      <g id="expand-arrow-icon-5" data-name="expand-arrow-icon" transform="translate(106.242 20.043)">
-        <path id="expand-arrow-icon-6" data-name="expand-arrow-icon" d="M3.549,12.906l-.8.71,8.487,7.55,8.487-7.55-.8-.71-7.689,6.84Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
-      </g>
-    </g>
-    <g id="Rectangle_21-4" data-name="Rectangle 21" transform="translate(891.518 643.08)" fill="#fff" stroke="#707070" stroke-width="1">
-      <rect width="135.639" height="48.347" stroke="none"/>
-      <rect x="0.5" y="0.5" width="134.639" height="47.347" fill="none"/>
-    </g>
-    <g id="expand-arrow-icon-7" data-name="expand-arrow-icon" transform="translate(1006.93 663.123)">
-      <path id="expand-arrow-icon-8" data-name="expand-arrow-icon" d="M3.549,12.906l-.8.71,8.487,7.55,8.487-7.55-.8-.71-7.689,6.84Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
-    </g>
-    <text id="to-2" data-name="to" transform="translate(855.627 672.181)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">to</tspan></text>
-    <text id="_10:00am-2" data-name="10:00am" transform="translate(705.48 671.181)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:00am</tspan></text>
-    <text id="_10:30am-2" data-name="10:30am" transform="translate(903.221 671.181)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:30am</tspan></text>
-    <g id="Group_52-2" data-name="Group 52" transform="translate(1090.469 643.08)">
-      <g id="Rectangle_22-2" data-name="Rectangle 22" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
-        <rect width="226.774" height="48.347" stroke="none"/>
-        <rect x="0.5" y="0.5" width="225.774" height="47.347" fill="none"/>
-      </g>
-      <text id="Location-2" data-name="Location" transform="translate(14.773 29.101)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">Location</tspan></text>
-    </g>
-    <text id="Add_course" data-name="Add course" transform="translate(292.837 728.492)" fill="#2177be" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Add course</tspan></text>
-    <g id="plus-sign-icon" transform="translate(265.307 714.257)">
-      <path id="plus-sign-icon-2" data-name="plus-sign-icon" d="M12.19,2A10.19,10.19,0,1,0,22.38,12.19,10.2,10.2,0,0,0,12.19,2Zm0,.886a9.3,9.3,0,1,1-9.3,9.3A9.3,9.3,0,0,1,12.19,2.886Zm-.443,3.987v4.873H6.873v.886h4.873v4.873h.886V12.633h4.873v-.886H12.633V6.873Z" transform="translate(-2 -2)" fill="#2177be"/>
-    </g>
     <text id="_1." data-name="1." transform="translate(227 398)" fill="#242424" font-size="30" font-family="Helvetica"><tspan x="0" y="0">1.</tspan></text>
     <text id="_2." data-name="2." transform="translate(227.704 603.202)" fill="#242424" font-size="28" font-family="Helvetica"><tspan x="0" y="0">2.</tspan></text>
-    <g id="Group_58" data-name="Group 58" transform="translate(140 948.95)">
-      <g transform="matrix(1, 0, 0, 1, -140, -948.95)" filter="url(#Rectangle_19)">
-        <g id="Rectangle_19-2" data-name="Rectangle 19" transform="translate(140 948.95)" fill="#fff" stroke="#707070" stroke-width="1">
+    <g id="Group_58" data-name="Group 58" transform="translate(140 935.317)">
+      <g transform="matrix(1, 0, 0, 1, -140, -935.32)" filter="url(#Rectangle_19)">
+        <g id="Rectangle_19-2" data-name="Rectangle 19" transform="translate(140 935.32)" fill="#fff" stroke="#707070" stroke-width="1">
           <rect width="1640" height="502.456" stroke="none"/>
           <rect x="0.5" y="0.5" width="1639" height="501.456" fill="none"/>
         </g>
       </g>
     </g>
-    <g id="Rectangle_24" data-name="Rectangle 24" transform="translate(140 948.95)" fill="#f0f0f0" stroke="#707070" stroke-width="1">
-      <rect width="1640" height="86.053" stroke="none"/>
-      <rect x="0.5" y="0.5" width="1639" height="85.053" fill="none"/>
+    <g id="Rectangle_42" data-name="Rectangle 42" transform="translate(140 935)" fill="#f0f0f0" stroke="#707070" stroke-width="1">
+      <rect width="1640" height="86" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1639" height="85" fill="none"/>
     </g>
-    <text id="Lab_List" data-name="Lab List" transform="translate(904 1000.976)" font-size="30" font-family="Helvetica"><tspan x="0" y="0">Lab List</tspan></text>
-    <g id="Rectangle_20-3" data-name="Rectangle 20" transform="translate(275.554 1087.976)" fill="#fff" stroke="#242424" stroke-width="1">
-      <rect width="350.446" height="48.405" stroke="none"/>
-      <rect x="0.5" y="0.5" width="349.446" height="47.405" fill="none"/>
+    <text id="Lab_List" data-name="Lab List" transform="translate(907.5 986)" font-size="30" font-family="Helvetica"><tspan x="0" y="0">Lab List</tspan></text>
+    <g id="Rectangle_20-2" data-name="Rectangle 20" transform="translate(274.97 1087.976)" fill="#fff" stroke="#242424" stroke-width="1">
+      <rect width="350.446" height="49" stroke="none"/>
+      <rect x="0.5" y="0.5" width="349.446" height="48" fill="none"/>
     </g>
-    <text id="Lab_name" data-name="Lab name" transform="translate(286.311 1116.241)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Lab name</tspan></text>
-    <g id="Group_46-3" data-name="Group 46" transform="translate(686.099 1087.976)">
-      <g id="Rectangle_21-5" data-name="Rectangle 21" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
-        <rect width="135.803" height="48.405" stroke="none"/>
-        <rect x="0.5" y="0.5" width="134.803" height="47.405" fill="none"/>
-      </g>
-      <g id="expand-arrow-icon-9" data-name="expand-arrow-icon" transform="translate(106.37 20.067)">
-        <path id="expand-arrow-icon-10" data-name="expand-arrow-icon" d="M3.55,12.906l-.8.711,8.5,7.559,8.5-7.559-.8-.711-7.7,6.848Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
-      </g>
+    <text id="Lab_name" data-name="Lab name" transform="translate(285.727 1116.241)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Lab name</tspan></text>
+    <text id="Add_lab" data-name="Add lab" transform="translate(300.503 1376.498)" fill="#2177be" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Add lab</tspan></text>
+    <g id="plus-sign-icon" transform="translate(272.838 1362.654)">
+      <path id="plus-sign-icon-2" data-name="plus-sign-icon" d="M12.2,2A10.2,10.2,0,1,0,22.4,12.2,10.209,10.209,0,0,0,12.2,2Zm0,.887A9.315,9.315,0,1,1,2.887,12.2,9.308,9.308,0,0,1,12.2,2.887Zm-.444,3.992v4.879H6.879v.887h4.879v4.879h.887V12.646h4.879v-.887H12.646V6.879Z" transform="translate(-2 -2)" fill="#2177be"/>
     </g>
-    <g id="Rectangle_21-6" data-name="Rectangle 21" transform="translate(895.378 1087.976)" fill="#fff" stroke="#707070" stroke-width="1">
-      <rect width="135.803" height="48.405" stroke="none"/>
-      <rect x="0.5" y="0.5" width="134.803" height="47.405" fill="none"/>
-    </g>
-    <g id="expand-arrow-icon-11" data-name="expand-arrow-icon" transform="translate(1005.816 1108.27)">
-      <path id="expand-arrow-icon-12" data-name="expand-arrow-icon" d="M3.55,12.906l-.8.711,8.5,7.559,8.5-7.559-.8-.711-7.7,6.848Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
-    </g>
-    <text id="to-3" data-name="to" transform="translate(849.984 1115.234)" fill="#242424" font-size="17" font-family="Helvetica"><tspan x="0" y="0">to</tspan></text>
-    <text id="_10:00am-3" data-name="10:00am" transform="translate(697.915 1116.241)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:00am</tspan></text>
-    <text id="_10:30am-3" data-name="10:30am" transform="translate(905.3 1116.241)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:30am</tspan></text>
-    <g id="Group_52-3" data-name="Group 52" transform="translate(1094.209 1087.976)">
-      <g id="Rectangle_22-3" data-name="Rectangle 22" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
-        <rect width="225.89" height="48.405" stroke="none"/>
-        <rect x="0.5" y="0.5" width="224.89" height="47.405" fill="none"/>
-      </g>
-      <text id="Location-3" data-name="Location" transform="translate(14.791 28.118)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Location</tspan></text>
-    </g>
-    <g id="Rectangle_20-4" data-name="Rectangle 20" transform="translate(275.554 1159.159)" fill="#fff" stroke="#242424" stroke-width="1">
-      <rect width="350.446" height="48.405" stroke="none"/>
-      <rect x="0.5" y="0.5" width="349.446" height="47.405" fill="none"/>
-    </g>
-    <text id="Lab_name-2" data-name="Lab name" transform="translate(286.311 1187.299)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Lab name</tspan></text>
-    <g id="Group_46-4" data-name="Group 46" transform="translate(686.099 1159.159)">
-      <g id="Rectangle_21-7" data-name="Rectangle 21" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
-        <rect width="135.803" height="48.405" stroke="none"/>
-        <rect x="0.5" y="0.5" width="134.803" height="47.405" fill="none"/>
-      </g>
-      <g id="expand-arrow-icon-13" data-name="expand-arrow-icon" transform="translate(106.37 20.067)">
-        <path id="expand-arrow-icon-14" data-name="expand-arrow-icon" d="M3.55,12.906l-.8.711,8.5,7.559,8.5-7.559-.8-.711-7.7,6.848Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
-      </g>
-    </g>
-    <g id="Rectangle_21-8" data-name="Rectangle 21" transform="translate(895.378 1159.159)" fill="#fff" stroke="#707070" stroke-width="1">
-      <rect width="135.803" height="48.405" stroke="none"/>
-      <rect x="0.5" y="0.5" width="134.803" height="47.405" fill="none"/>
-    </g>
-    <g id="expand-arrow-icon-15" data-name="expand-arrow-icon" transform="translate(1005.816 1179.292)">
-      <path id="expand-arrow-icon-16" data-name="expand-arrow-icon" d="M3.55,12.906l-.8.711,8.5,7.559,8.5-7.559-.8-.711-7.7,6.848Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
-    </g>
-    <text id="to-4" data-name="to" transform="translate(849.984 1186.288)" fill="#242424" font-size="17" font-family="Helvetica"><tspan x="0" y="0">to</tspan></text>
-    <text id="_10:00am-4" data-name="10:00am" transform="translate(697.915 1187.299)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:00am</tspan></text>
-    <text id="_10:30am-4" data-name="10:30am" transform="translate(905.3 1187.299)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:30am</tspan></text>
-    <g id="Group_52-4" data-name="Group 52" transform="translate(1094.209 1159.159)">
-      <g id="Rectangle_22-4" data-name="Rectangle 22" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
-        <rect width="225.89" height="48.405" stroke="none"/>
-        <rect x="0.5" y="0.5" width="224.89" height="47.405" fill="none"/>
-      </g>
-      <text id="Location-4" data-name="Location" transform="translate(14.791 28.118)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Location</tspan></text>
-    </g>
-    <g id="Rectangle_20-5" data-name="Rectangle 20" transform="translate(275.554 1230.342)" fill="#fff" stroke="#242424" stroke-width="1">
-      <rect width="350.446" height="48.405" stroke="none"/>
-      <rect x="0.5" y="0.5" width="349.446" height="47.405" fill="none"/>
-    </g>
-    <text id="Lab_name-3" data-name="Lab name" transform="translate(286.311 1258.358)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Lab name</tspan></text>
-    <g id="Group_46-5" data-name="Group 46" transform="translate(686.099 1230.342)">
-      <g id="Rectangle_21-9" data-name="Rectangle 21" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
-        <rect width="135.803" height="48.405" stroke="none"/>
-        <rect x="0.5" y="0.5" width="134.803" height="47.405" fill="none"/>
-      </g>
-      <g id="expand-arrow-icon-17" data-name="expand-arrow-icon" transform="translate(106.37 20.067)">
-        <path id="expand-arrow-icon-18" data-name="expand-arrow-icon" d="M3.55,12.906l-.8.711,8.5,7.559,8.5-7.559-.8-.711-7.7,6.848Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
-      </g>
-    </g>
-    <g id="Rectangle_21-10" data-name="Rectangle 21" transform="translate(895.378 1230.342)" fill="#fff" stroke="#707070" stroke-width="1">
-      <rect width="135.803" height="48.405" stroke="none"/>
-      <rect x="0.5" y="0.5" width="134.803" height="47.405" fill="none"/>
-    </g>
-    <g id="expand-arrow-icon-19" data-name="expand-arrow-icon" transform="translate(1005.816 1250.313)">
-      <path id="expand-arrow-icon-20" data-name="expand-arrow-icon" d="M3.55,12.906l-.8.711,8.5,7.559,8.5-7.559-.8-.711-7.7,6.848Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
-    </g>
-    <text id="to-5" data-name="to" transform="translate(849.984 1257.342)" fill="#242424" font-size="17" font-family="Helvetica"><tspan x="0" y="0">to</tspan></text>
-    <text id="_10:00am-5" data-name="10:00am" transform="translate(697.915 1258.358)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:00am</tspan></text>
-    <text id="_10:30am-5" data-name="10:30am" transform="translate(905.3 1258.358)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:30am</tspan></text>
-    <g id="Group_52-5" data-name="Group 52" transform="translate(1094.209 1230.342)">
-      <g id="Rectangle_22-5" data-name="Rectangle 22" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
-        <rect width="225.89" height="48.405" stroke="none"/>
-        <rect x="0.5" y="0.5" width="224.89" height="47.405" fill="none"/>
-      </g>
-      <text id="Location-5" data-name="Location" transform="translate(14.791 28.118)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Location</tspan></text>
-    </g>
-    <g id="Rectangle_20-6" data-name="Rectangle 20" transform="translate(275.554 1301.525)" fill="#fff" stroke="#242424" stroke-width="1">
-      <rect width="350.446" height="48.405" stroke="none"/>
-      <rect x="0.5" y="0.5" width="349.446" height="47.405" fill="none"/>
-    </g>
-    <text id="Lab_name-4" data-name="Lab name" transform="translate(286.311 1329.416)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Lab name</tspan></text>
-    <g id="Group_46-6" data-name="Group 46" transform="translate(686.099 1301.525)">
-      <g id="Rectangle_21-11" data-name="Rectangle 21" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
-        <rect width="135.803" height="48.405" stroke="none"/>
-        <rect x="0.5" y="0.5" width="134.803" height="47.405" fill="none"/>
-      </g>
-      <g id="expand-arrow-icon-21" data-name="expand-arrow-icon" transform="translate(106.37 20.067)">
-        <path id="expand-arrow-icon-22" data-name="expand-arrow-icon" d="M3.55,12.906l-.8.711,8.5,7.559,8.5-7.559-.8-.711-7.7,6.848Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
-      </g>
-    </g>
-    <g id="Rectangle_21-12" data-name="Rectangle 21" transform="translate(895.378 1301.525)" fill="#fff" stroke="#707070" stroke-width="1">
-      <rect width="135.803" height="48.405" stroke="none"/>
-      <rect x="0.5" y="0.5" width="134.803" height="47.405" fill="none"/>
-    </g>
-    <g id="expand-arrow-icon-23" data-name="expand-arrow-icon" transform="translate(1005.816 1321.335)">
-      <path id="expand-arrow-icon-24" data-name="expand-arrow-icon" d="M3.55,12.906l-.8.711,8.5,7.559,8.5-7.559-.8-.711-7.7,6.848Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
-    </g>
-    <text id="to-6" data-name="to" transform="translate(849.984 1328.397)" fill="#242424" font-size="17" font-family="Helvetica"><tspan x="0" y="0">to</tspan></text>
-    <text id="_10:00am-6" data-name="10:00am" transform="translate(697.915 1329.416)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:00am</tspan></text>
-    <text id="_10:30am-6" data-name="10:30am" transform="translate(905.3 1329.416)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:30am</tspan></text>
-    <g id="Group_52-6" data-name="Group 52" transform="translate(1094.209 1301.525)">
-      <g id="Rectangle_22-6" data-name="Rectangle 22" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
-        <rect width="225.89" height="48.405" stroke="none"/>
-        <rect x="0.5" y="0.5" width="224.89" height="47.405" fill="none"/>
-      </g>
-      <text id="Location-6" data-name="Location" transform="translate(14.791 28.118)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Location</tspan></text>
-    </g>
-    <text id="Add_lab" data-name="Add lab" transform="translate(303.219 1391.282)" fill="#2177be" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Add lab</tspan></text>
-    <g id="plus-sign-icon-3" data-name="plus-sign-icon" transform="translate(275.554 1377.438)">
-      <path id="plus-sign-icon-4" data-name="plus-sign-icon" d="M12.2,2A10.2,10.2,0,1,0,22.4,12.2,10.209,10.209,0,0,0,12.2,2Zm0,.887A9.315,9.315,0,1,1,2.887,12.2,9.308,9.308,0,0,1,12.2,2.887Zm-.444,3.992v4.879H6.879v.887h4.879v4.879h.887V12.646h4.879v-.887H12.646V6.879Z" transform="translate(-2 -2)" fill="#2177be"/>
-    </g>
-    <text id="_1.-2" data-name="1." transform="translate(227.704 1120.178)" fill="#242424" font-size="28" font-family="Helvetica"><tspan x="0" y="0">1.</tspan></text>
-    <text id="_2.-2" data-name="2." transform="translate(227.704 1191.275)" fill="#242424" font-size="28" font-family="Helvetica"><tspan x="0" y="0">2.</tspan></text>
-    <text id="_3." data-name="3." transform="translate(227.704 1262.373)" fill="#242424" font-size="28" font-family="Helvetica"><tspan x="0" y="0">3.</tspan></text>
-    <text id="_4." data-name="4." transform="translate(227.704 1333.47)" fill="#242424" font-size="28" font-family="Helvetica"><tspan x="0" y="0">4.</tspan></text>
-    <text id="Add_course-2" data-name="Add course" transform="translate(292.837 522.885)" fill="#2177be" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Add course</tspan></text>
-    <g id="plus-sign-icon-5" data-name="plus-sign-icon" transform="translate(265.307 508.65)">
-      <path id="plus-sign-icon-6" data-name="plus-sign-icon" d="M12.19,2A10.19,10.19,0,1,0,22.38,12.19,10.2,10.2,0,0,0,12.19,2Zm0,.886a9.3,9.3,0,1,1-9.3,9.3A9.3,9.3,0,0,1,12.19,2.886Zm-.443,3.987v4.873H6.873v.886h4.873v4.873h.886V12.633h4.873v-.886H12.633V6.873Z" transform="translate(-2 -2)" fill="#2177be"/>
+    <text id="_1.-2" data-name="1." transform="translate(236.617 1120.178)" fill="#242424" font-size="28" font-family="Helvetica"><tspan x="0" y="0">1.</tspan></text>
+    <text id="_2.-2" data-name="2." transform="translate(236.617 1191.275)" fill="#242424" font-size="28" font-family="Helvetica"><tspan x="0" y="0">2.</tspan></text>
+    <text id="_3." data-name="3." transform="translate(236.617 1262.373)" fill="#242424" font-size="28" font-family="Helvetica"><tspan x="0" y="0">3.</tspan></text>
+    <text id="_4." data-name="4." transform="translate(236.617 1333.47)" fill="#242424" font-size="28" font-family="Helvetica"><tspan x="0" y="0">4.</tspan></text>
+    <text id="Add_course" data-name="Add course" transform="translate(292.837 522.885)" fill="#2177be" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Add course</tspan></text>
+    <g id="plus-sign-icon-3" data-name="plus-sign-icon" transform="translate(265.307 508.65)">
+      <path id="plus-sign-icon-4" data-name="plus-sign-icon" d="M12.19,2A10.19,10.19,0,1,0,22.38,12.19,10.2,10.2,0,0,0,12.19,2Zm0,.886a9.3,9.3,0,1,1-9.3,9.3A9.3,9.3,0,0,1,12.19,2.886Zm-.443,3.987v4.873H6.873v.886h4.873v4.873h.886V12.633h4.873v-.886H12.633V6.873Z" transform="translate(-2 -2)" fill="#2177be"/>
     </g>
     <g id="Rectangle_25" data-name="Rectangle 25" transform="translate(857 764)" fill="#f0f0f0" stroke="#707070" stroke-width="1">
       <rect width="206" height="44" stroke="none"/>
@@ -282,23 +115,8 @@
       </g>
       <text id="Submit" transform="translate(48.897 25.212)" fill="#fff" font-size="20" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Submit</tspan></text>
     </g>
-    <g id="delete-button-icon" transform="translate(1336.498 1098.517)">
-      <path id="delete-button-icon-2" data-name="delete-button-icon" d="M16.79,2a14.79,14.79,0,1,0,14.79,14.79A14.8,14.8,0,0,0,16.79,2Zm0,1.286a13.5,13.5,0,1,1-13.5,13.5A13.495,13.495,0,0,1,16.79,3.286Zm5.138,7.708a.643.643,0,0,0-.448.2l-4.69,4.69-4.69-4.69a.643.643,0,1,0-.909.909l4.69,4.69-4.69,4.69a.643.643,0,1,0,.909.909l4.69-4.69,4.69,4.69a.643.643,0,1,0,.909-.909L17.7,16.79l4.69-4.69a.643.643,0,0,0-.461-1.107Z" transform="translate(-2 -2)" fill="#2177be"/>
-    </g>
-    <g id="delete-button-icon-3" data-name="delete-button-icon" transform="translate(1336.498 1170.393)">
-      <path id="delete-button-icon-4" data-name="delete-button-icon" d="M16.79,2a14.79,14.79,0,1,0,14.79,14.79A14.8,14.8,0,0,0,16.79,2Zm0,1.286a13.5,13.5,0,1,1-13.5,13.5A13.495,13.495,0,0,1,16.79,3.286Zm5.138,7.708a.643.643,0,0,0-.448.2l-4.69,4.69-4.69-4.69a.643.643,0,1,0-.909.909l4.69,4.69-4.69,4.69a.643.643,0,1,0,.909.909l4.69-4.69,4.69,4.69a.643.643,0,1,0,.909-.909L17.7,16.79l4.69-4.69a.643.643,0,0,0-.461-1.107Z" transform="translate(-2 -2)" fill="#2177be"/>
-    </g>
-    <g id="delete-button-icon-5" data-name="delete-button-icon" transform="translate(1336.498 1240.215)">
-      <path id="delete-button-icon-6" data-name="delete-button-icon" d="M16.79,2a14.79,14.79,0,1,0,14.79,14.79A14.8,14.8,0,0,0,16.79,2Zm0,1.286a13.5,13.5,0,1,1-13.5,13.5A13.495,13.495,0,0,1,16.79,3.286Zm5.138,7.708a.643.643,0,0,0-.448.2l-4.69,4.69-4.69-4.69a.643.643,0,1,0-.909.909l4.69,4.69-4.69,4.69a.643.643,0,1,0,.909.909l4.69-4.69,4.69,4.69a.643.643,0,1,0,.909-.909L17.7,16.79l4.69-4.69a.643.643,0,0,0-.461-1.107Z" transform="translate(-2 -2)" fill="#2177be"/>
-    </g>
-    <g id="delete-button-icon-7" data-name="delete-button-icon" transform="translate(1336.498 1310.057)">
-      <path id="delete-button-icon-8" data-name="delete-button-icon" d="M16.79,2a14.79,14.79,0,1,0,14.79,14.79A14.8,14.8,0,0,0,16.79,2Zm0,1.286a13.5,13.5,0,1,1-13.5,13.5A13.495,13.495,0,0,1,16.79,3.286Zm5.138,7.708a.643.643,0,0,0-.448.2l-4.69,4.69-4.69-4.69a.643.643,0,1,0-.909.909l4.69,4.69-4.69,4.69a.643.643,0,1,0,.909.909l4.69-4.69,4.69,4.69a.643.643,0,1,0,.909-.909L17.7,16.79l4.69-4.69a.643.643,0,0,0-.461-1.107Z" transform="translate(-2 -2)" fill="#2177be"/>
-    </g>
-    <g id="delete-button-icon-9" data-name="delete-button-icon" transform="translate(1337.498 447)">
-      <path id="delete-button-icon-10" data-name="delete-button-icon" d="M16.773,2A14.773,14.773,0,1,0,31.545,16.773,14.783,14.783,0,0,0,16.773,2Zm0,1.285A13.488,13.488,0,1,1,3.285,16.773,13.478,13.478,0,0,1,16.773,3.285Zm5.132,7.7a.642.642,0,0,0-.448.2l-4.684,4.684L12.088,11.18a.642.642,0,1,0-.908.908l4.684,4.684L11.18,21.457a.642.642,0,1,0,.908.908l4.684-4.684,4.684,4.684a.642.642,0,1,0,.908-.908l-4.684-4.684,4.684-4.684a.642.642,0,0,0-.46-1.105Z" transform="translate(-2 -2)" fill="#2177be"/>
-    </g>
-    <g id="delete-button-icon-11" data-name="delete-button-icon" transform="translate(1337.498 652)">
-      <path id="delete-button-icon-12" data-name="delete-button-icon" d="M16.773,2A14.773,14.773,0,1,0,31.545,16.773,14.783,14.783,0,0,0,16.773,2Zm0,1.285A13.488,13.488,0,1,1,3.285,16.773,13.478,13.478,0,0,1,16.773,3.285Zm5.132,7.7a.642.642,0,0,0-.448.2l-4.684,4.684L12.088,11.18a.642.642,0,1,0-.908.908l4.684,4.684L11.18,21.457a.642.642,0,1,0,.908.908l4.684-4.684,4.684,4.684a.642.642,0,1,0,.908-.908l-4.684-4.684,4.684-4.684a.642.642,0,0,0-.46-1.105Z" transform="translate(-2 -2)" fill="#2177be"/>
+    <g id="delete-button-icon" transform="translate(1646.413 447)">
+      <path id="delete-button-icon-2" data-name="delete-button-icon" d="M16.773,2A14.773,14.773,0,1,0,31.545,16.773,14.783,14.783,0,0,0,16.773,2Zm0,1.285A13.488,13.488,0,1,1,3.285,16.773,13.478,13.478,0,0,1,16.773,3.285Zm5.132,7.7a.642.642,0,0,0-.448.2l-4.684,4.684L12.088,11.18a.642.642,0,1,0-.908.908l4.684,4.684L11.18,21.457a.642.642,0,1,0,.908.908l4.684-4.684,4.684,4.684a.642.642,0,1,0,.908-.908l-4.684-4.684,4.684-4.684a.642.642,0,0,0-.46-1.105Z" transform="translate(-2 -2)" fill="#2177be"/>
     </g>
     <g id="Group_62" data-name="Group 62" transform="translate(1430.746 1488.049)">
       <g id="Path_9-2" data-name="Path 9" transform="translate(0)" fill="#f0f0f0">
@@ -341,11 +159,361 @@
       <line id="Line_2" data-name="Line 2" y2="30.494" transform="translate(1720.5 11.045)" fill="none" stroke="#000" stroke-width="1"/>
       <text id="Admin" transform="translate(1633 31)" fill="#242424" font-size="20" font-family="Helvetica"><tspan x="0" y="0">Admin</tspan></text>
     </g>
-    <g id="delete-button-icon-13" data-name="delete-button-icon" transform="translate(649.636 375)">
+    <g id="delete-button-icon-3" data-name="delete-button-icon" transform="translate(649.636 375)">
+      <path id="delete-button-icon-4" data-name="delete-button-icon" d="M16.773,2A14.773,14.773,0,1,0,31.545,16.773,14.783,14.783,0,0,0,16.773,2Zm0,1.285A13.488,13.488,0,1,1,3.285,16.773,13.478,13.478,0,0,1,16.773,3.285Zm5.132,7.7a.642.642,0,0,0-.448.2l-4.684,4.684L12.088,11.18a.642.642,0,1,0-.908.908l4.684,4.684L11.18,21.457a.642.642,0,1,0,.908.908l4.684-4.684,4.684,4.684a.642.642,0,1,0,.908-.908l-4.684-4.684,4.684-4.684a.642.642,0,0,0-.46-1.105Z" transform="translate(-2 -2)" fill="#2177be"/>
+    </g>
+    <g id="Group_95" data-name="Group 95" transform="translate(-68.662 111)">
+      <g id="Rectangle_32" data-name="Rectangle 32" transform="translate(753.814 326)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="293" height="49" stroke="none"/>
+        <rect x="0.5" y="0.5" width="292" height="48" fill="none"/>
+      </g>
+      <g id="Path_16" data-name="Path 16" transform="translate(753.814 326)" fill="#2177be">
+        <path d="M 58.5 48.5 L 0.5 48.5 L 0.5 0.5 L 58.5 0.5 L 58.5 48.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 48 L 58 48 L 58 1 L 1 1 M 0 0 L 59 0 L 59 49 L 0 49 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <text id="Mon" transform="translate(762.814 358)" fill="#fff" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Mon</tspan></text>
+      <line id="Line_10" data-name="Line 10" y2="49" transform="translate(812.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-2" data-name="Line 10" y2="49" transform="translate(872.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-3" data-name="Line 10" y2="49" transform="translate(932.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-4" data-name="Line 10" y2="49" transform="translate(992.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Path_15" data-name="Path 15" d="M0,45" transform="translate(1052.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <text id="Tues" transform="translate(821.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Tues</tspan></text>
+      <g id="Path_17" data-name="Path 17" transform="translate(872.814 326)" fill="#2177be">
+        <path d="M 58.5 48.5 L 0.5 48.5 L 0.5 0.5 L 58.5 0.5 L 58.5 48.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 48 L 58 48 L 58 1 L 1 1 M 0 0 L 59 0 L 59 49 L 0 49 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <text id="Wed" transform="translate(882.814 358)" fill="#fff" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Wed</tspan></text>
+      <text id="Thu" transform="translate(945.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Thu</tspan></text>
+      <text id="Fri" transform="translate(1008.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Fri</tspan></text>
+    </g>
+    <g id="Rectangle_33" data-name="Rectangle 33" transform="translate(264.618 570.231)" fill="#fff" stroke="#242424" stroke-width="1">
+      <rect width="360" height="49" stroke="none"/>
+      <rect x="0.5" y="0.5" width="359" height="48" fill="none"/>
+    </g>
+    <text id="Student_name-2" data-name="Student name" transform="translate(275.618 599.231)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">Student name</tspan></text>
+    <g id="Rectangle_34" data-name="Rectangle 34" transform="translate(264.618 641.231)" fill="#fff" stroke="#242424" stroke-width="1">
+      <rect width="360" height="49" stroke="none"/>
+      <rect x="0.5" y="0.5" width="359" height="48" fill="none"/>
+    </g>
+    <text id="Course_name-2" data-name="Course name" transform="translate(275.618 671.231)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">Course name</tspan></text>
+    <g id="Group_96" data-name="Group 96" transform="translate(1018.864 641.231)">
+      <g id="Rectangle_21-2" data-name="Rectangle 21" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="135.639" height="49" stroke="none"/>
+        <rect x="0.5" y="0.5" width="134.639" height="48" fill="none"/>
+      </g>
+      <g id="expand-arrow-icon-3" data-name="expand-arrow-icon" transform="translate(106.242 20.37)">
+        <path id="expand-arrow-icon-4" data-name="expand-arrow-icon" d="M3.549,12.906l-.8.71,8.487,7.55,8.487-7.55-.8-.71-7.689,6.84Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
+      </g>
+    </g>
+    <text id="to-2" data-name="to" transform="translate(1181.434 670.758)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">to</tspan></text>
+    <text id="_10:00am-2" data-name="10:00am" transform="translate(1032.086 669.332)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:00am</tspan></text>
+    <g id="Group_97" data-name="Group 97" transform="translate(1398.031 641.231)">
+      <g id="Rectangle_22-2" data-name="Rectangle 22" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="226" height="49" stroke="none"/>
+        <rect x="0.5" y="0.5" width="225" height="48" fill="none"/>
+      </g>
+      <text id="Location-2" data-name="Location" transform="translate(15 30)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">Location</tspan></text>
+    </g>
+    <text id="Add_course-2" data-name="Add course" transform="translate(291.456 727.117)" fill="#2177be" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Add course</tspan></text>
+    <g id="plus-sign-icon-5" data-name="plus-sign-icon" transform="translate(263.925 712.881)">
+      <path id="plus-sign-icon-6" data-name="plus-sign-icon" d="M12.19,2A10.19,10.19,0,1,0,22.38,12.19,10.2,10.2,0,0,0,12.19,2Zm0,.886a9.3,9.3,0,1,1-9.3,9.3A9.3,9.3,0,0,1,12.19,2.886Zm-.443,3.987v4.873H6.873v.886h4.873v4.873h.886V12.633h4.873v-.886H12.633V6.873Z" transform="translate(-2 -2)" fill="#2177be"/>
+    </g>
+    <g id="delete-button-icon-5" data-name="delete-button-icon" transform="translate(1645.031 651.231)">
+      <path id="delete-button-icon-6" data-name="delete-button-icon" d="M16.773,2A14.773,14.773,0,1,0,31.545,16.773,14.783,14.783,0,0,0,16.773,2Zm0,1.285A13.488,13.488,0,1,1,3.285,16.773,13.478,13.478,0,0,1,16.773,3.285Zm5.132,7.7a.642.642,0,0,0-.448.2l-4.684,4.684L12.088,11.18a.642.642,0,1,0-.908.908l4.684,4.684L11.18,21.457a.642.642,0,1,0,.908.908l4.684-4.684,4.684,4.684a.642.642,0,1,0,.908-.908l-4.684-4.684,4.684-4.684a.642.642,0,0,0-.46-1.105Z" transform="translate(-2 -2)" fill="#2177be"/>
+    </g>
+    <g id="delete-button-icon-7" data-name="delete-button-icon" transform="translate(648.254 579.231)">
+      <path id="delete-button-icon-8" data-name="delete-button-icon" d="M16.773,2A14.773,14.773,0,1,0,31.545,16.773,14.783,14.783,0,0,0,16.773,2Zm0,1.285A13.488,13.488,0,1,1,3.285,16.773,13.478,13.478,0,0,1,16.773,3.285Zm5.132,7.7a.642.642,0,0,0-.448.2l-4.684,4.684L12.088,11.18a.642.642,0,1,0-.908.908l4.684,4.684L11.18,21.457a.642.642,0,1,0,.908.908l4.684-4.684,4.684,4.684a.642.642,0,1,0,.908-.908l-4.684-4.684,4.684-4.684a.642.642,0,0,0-.46-1.105Z" transform="translate(-2 -2)" fill="#2177be"/>
+    </g>
+    <g id="Group_98" data-name="Group 98" transform="translate(-70.044 315.231)">
+      <g id="Rectangle_32-2" data-name="Rectangle 32" transform="translate(753.814 326)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="293" height="49" stroke="none"/>
+        <rect x="0.5" y="0.5" width="292" height="48" fill="none"/>
+      </g>
+      <g id="Path_16-2" data-name="Path 16" transform="translate(753.814 326)" fill="#2177be">
+        <path d="M 58.5 48.5 L 0.5 48.5 L 0.5 0.5 L 58.5 0.5 L 58.5 48.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 48 L 58 48 L 58 1 L 1 1 M 0 0 L 59 0 L 59 49 L 0 49 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <text id="Mon-2" data-name="Mon" transform="translate(762.814 358)" fill="#fff" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Mon</tspan></text>
+      <line id="Line_10-5" data-name="Line 10" y2="49" transform="translate(812.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-6" data-name="Line 10" y2="49" transform="translate(872.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-7" data-name="Line 10" y2="49" transform="translate(932.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-8" data-name="Line 10" y2="49" transform="translate(992.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Path_15-2" data-name="Path 15" d="M0,45" transform="translate(1052.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <text id="Tues-2" data-name="Tues" transform="translate(821.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Tues</tspan></text>
+      <g id="Path_17-2" data-name="Path 17" transform="translate(872.814 326)" fill="#2177be">
+        <path d="M 58.5 48.5 L 0.5 48.5 L 0.5 0.5 L 58.5 0.5 L 58.5 48.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 48 L 58 48 L 58 1 L 1 1 M 0 0 L 59 0 L 59 49 L 0 49 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <text id="Wed-2" data-name="Wed" transform="translate(882.814 358)" fill="#fff" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Wed</tspan></text>
+      <text id="Thu-2" data-name="Thu" transform="translate(945.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Thu</tspan></text>
+      <text id="Fri-2" data-name="Fri" transform="translate(1008.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Fri</tspan></text>
+    </g>
+    <g id="Group_99" data-name="Group 99" transform="translate(1030.782 1087.976)">
+      <g id="Rectangle_21-3" data-name="Rectangle 21" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="135.639" height="49" stroke="none"/>
+        <rect x="0.5" y="0.5" width="134.639" height="48" fill="none"/>
+      </g>
+      <g id="expand-arrow-icon-5" data-name="expand-arrow-icon" transform="translate(106.242 20.37)">
+        <path id="expand-arrow-icon-6" data-name="expand-arrow-icon" d="M3.549,12.906l-.8.71,8.487,7.55,8.487-7.55-.8-.71-7.689,6.84Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
+      </g>
+    </g>
+    <text id="to-3" data-name="to" transform="translate(1191.786 1117.504)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">to</tspan></text>
+    <text id="_10:00am-3" data-name="10:00am" transform="translate(1044.004 1116.078)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:00am</tspan></text>
+    <g id="Group_100" data-name="Group 100" transform="translate(1408.383 1087.976)">
+      <g id="Rectangle_22-3" data-name="Rectangle 22" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="226" height="49" stroke="none"/>
+        <rect x="0.5" y="0.5" width="225" height="48" fill="none"/>
+      </g>
+      <text id="Location-3" data-name="Location" transform="translate(15 30)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">Location</tspan></text>
+    </g>
+    <g id="delete-button-icon-9" data-name="delete-button-icon" transform="translate(1655.383 1097.976)">
+      <path id="delete-button-icon-10" data-name="delete-button-icon" d="M16.773,2A14.773,14.773,0,1,0,31.545,16.773,14.783,14.783,0,0,0,16.773,2Zm0,1.285A13.488,13.488,0,1,1,3.285,16.773,13.478,13.478,0,0,1,16.773,3.285Zm5.132,7.7a.642.642,0,0,0-.448.2l-4.684,4.684L12.088,11.18a.642.642,0,1,0-.908.908l4.684,4.684L11.18,21.457a.642.642,0,1,0,.908.908l4.684-4.684,4.684,4.684a.642.642,0,1,0,.908-.908l-4.684-4.684,4.684-4.684a.642.642,0,0,0-.46-1.105Z" transform="translate(-2 -2)" fill="#2177be"/>
+    </g>
+    <g id="Group_101" data-name="Group 101" transform="translate(-70.684 761.976)">
+      <g id="Rectangle_32-3" data-name="Rectangle 32" transform="translate(753.814 326)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="293" height="49" stroke="none"/>
+        <rect x="0.5" y="0.5" width="292" height="48" fill="none"/>
+      </g>
+      <g id="Path_16-3" data-name="Path 16" transform="translate(753.814 326)" fill="#2177be">
+        <path d="M 58.5 48.5 L 0.5 48.5 L 0.5 0.5 L 58.5 0.5 L 58.5 48.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 48 L 58 48 L 58 1 L 1 1 M 0 0 L 59 0 L 59 49 L 0 49 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <text id="Mon-3" data-name="Mon" transform="translate(762.814 358)" fill="#fff" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Mon</tspan></text>
+      <line id="Line_10-9" data-name="Line 10" y2="49" transform="translate(812.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-10" data-name="Line 10" y2="49" transform="translate(872.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-11" data-name="Line 10" y2="49" transform="translate(932.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-12" data-name="Line 10" y2="49" transform="translate(992.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Path_15-3" data-name="Path 15" d="M0,45" transform="translate(1052.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <text id="Tues-3" data-name="Tues" transform="translate(821.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Tues</tspan></text>
+      <g id="Path_17-3" data-name="Path 17" transform="translate(872.814 326)" fill="#2177be">
+        <path d="M 58.5 48.5 L 0.5 48.5 L 0.5 0.5 L 58.5 0.5 L 58.5 48.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 48 L 58 48 L 58 1 L 1 1 M 0 0 L 59 0 L 59 49 L 0 49 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <text id="Wed-3" data-name="Wed" transform="translate(882.814 358)" fill="#fff" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Wed</tspan></text>
+      <text id="Thu-3" data-name="Thu" transform="translate(945.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Thu</tspan></text>
+      <text id="Fri-3" data-name="Fri" transform="translate(1008.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Fri</tspan></text>
+    </g>
+    <g id="Rectangle_37" data-name="Rectangle 37" transform="translate(274.913 1154.28)" fill="#fff" stroke="#242424" stroke-width="1">
+      <rect width="350.446" height="49" stroke="none"/>
+      <rect x="0.5" y="0.5" width="349.446" height="48" fill="none"/>
+    </g>
+    <text id="Lab_name-2" data-name="Lab name" transform="translate(285.67 1182.545)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Lab name</tspan></text>
+    <g id="Group_102" data-name="Group 102" transform="translate(1030.725 1154.28)">
+      <g id="Rectangle_21-4" data-name="Rectangle 21" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="135.639" height="49" stroke="none"/>
+        <rect x="0.5" y="0.5" width="134.639" height="48" fill="none"/>
+      </g>
+      <g id="expand-arrow-icon-7" data-name="expand-arrow-icon" transform="translate(106.242 20.37)">
+        <path id="expand-arrow-icon-8" data-name="expand-arrow-icon" d="M3.549,12.906l-.8.71,8.487,7.55,8.487-7.55-.8-.71-7.689,6.84Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
+      </g>
+    </g>
+    <text id="to-4" data-name="to" transform="translate(1191.729 1183.807)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">to</tspan></text>
+    <text id="_10:00am-4" data-name="10:00am" transform="translate(1043.947 1182.381)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:00am</tspan></text>
+    <g id="Group_103" data-name="Group 103" transform="translate(1408.326 1154.28)">
+      <g id="Rectangle_22-4" data-name="Rectangle 22" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="226" height="49" stroke="none"/>
+        <rect x="0.5" y="0.5" width="225" height="48" fill="none"/>
+      </g>
+      <text id="Location-4" data-name="Location" transform="translate(15 30)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">Location</tspan></text>
+    </g>
+    <g id="delete-button-icon-11" data-name="delete-button-icon" transform="translate(1655.326 1164.28)">
+      <path id="delete-button-icon-12" data-name="delete-button-icon" d="M16.773,2A14.773,14.773,0,1,0,31.545,16.773,14.783,14.783,0,0,0,16.773,2Zm0,1.285A13.488,13.488,0,1,1,3.285,16.773,13.478,13.478,0,0,1,16.773,3.285Zm5.132,7.7a.642.642,0,0,0-.448.2l-4.684,4.684L12.088,11.18a.642.642,0,1,0-.908.908l4.684,4.684L11.18,21.457a.642.642,0,1,0,.908.908l4.684-4.684,4.684,4.684a.642.642,0,1,0,.908-.908l-4.684-4.684,4.684-4.684a.642.642,0,0,0-.46-1.105Z" transform="translate(-2 -2)" fill="#2177be"/>
+    </g>
+    <g id="Group_104" data-name="Group 104" transform="translate(-70.684 828.28)">
+      <g id="Rectangle_32-4" data-name="Rectangle 32" transform="translate(753.814 326)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="293" height="49" stroke="none"/>
+        <rect x="0.5" y="0.5" width="292" height="48" fill="none"/>
+      </g>
+      <g id="Path_16-4" data-name="Path 16" transform="translate(753.814 326)" fill="#2177be">
+        <path d="M 58.5 48.5 L 0.5 48.5 L 0.5 0.5 L 58.5 0.5 L 58.5 48.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 48 L 58 48 L 58 1 L 1 1 M 0 0 L 59 0 L 59 49 L 0 49 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <text id="Mon-4" data-name="Mon" transform="translate(762.814 358)" fill="#fff" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Mon</tspan></text>
+      <line id="Line_10-13" data-name="Line 10" y2="49" transform="translate(812.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-14" data-name="Line 10" y2="49" transform="translate(872.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-15" data-name="Line 10" y2="49" transform="translate(932.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-16" data-name="Line 10" y2="49" transform="translate(992.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Path_15-4" data-name="Path 15" d="M0,45" transform="translate(1052.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <text id="Tues-4" data-name="Tues" transform="translate(821.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Tues</tspan></text>
+      <g id="Path_17-4" data-name="Path 17" transform="translate(872.814 326)" fill="#2177be">
+        <path d="M 58.5 48.5 L 0.5 48.5 L 0.5 0.5 L 58.5 0.5 L 58.5 48.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 48 L 58 48 L 58 1 L 1 1 M 0 0 L 59 0 L 59 49 L 0 49 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <text id="Wed-4" data-name="Wed" transform="translate(882.814 358)" fill="#fff" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Wed</tspan></text>
+      <text id="Thu-4" data-name="Thu" transform="translate(945.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Thu</tspan></text>
+      <text id="Fri-4" data-name="Fri" transform="translate(1008.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Fri</tspan></text>
+    </g>
+    <g id="Rectangle_39" data-name="Rectangle 39" transform="translate(274.913 1220.584)" fill="#fff" stroke="#242424" stroke-width="1">
+      <rect width="350.446" height="49" stroke="none"/>
+      <rect x="0.5" y="0.5" width="349.446" height="48" fill="none"/>
+    </g>
+    <text id="Lab_name-3" data-name="Lab name" transform="translate(285.67 1248.848)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Lab name</tspan></text>
+    <g id="Group_105" data-name="Group 105" transform="translate(1030.725 1220.584)">
+      <g id="Rectangle_21-5" data-name="Rectangle 21" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="135.639" height="49" stroke="none"/>
+        <rect x="0.5" y="0.5" width="134.639" height="48" fill="none"/>
+      </g>
+      <g id="expand-arrow-icon-9" data-name="expand-arrow-icon" transform="translate(106.242 20.37)">
+        <path id="expand-arrow-icon-10" data-name="expand-arrow-icon" d="M3.549,12.906l-.8.71,8.487,7.55,8.487-7.55-.8-.71-7.689,6.84Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
+      </g>
+    </g>
+    <text id="to-5" data-name="to" transform="translate(1191.729 1250.111)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">to</tspan></text>
+    <text id="_10:00am-5" data-name="10:00am" transform="translate(1043.947 1248.685)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:00am</tspan></text>
+    <g id="Group_106" data-name="Group 106" transform="translate(1408.326 1220.584)">
+      <g id="Rectangle_22-5" data-name="Rectangle 22" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="226" height="49" stroke="none"/>
+        <rect x="0.5" y="0.5" width="225" height="48" fill="none"/>
+      </g>
+      <text id="Location-5" data-name="Location" transform="translate(15 30)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">Location</tspan></text>
+    </g>
+    <g id="delete-button-icon-13" data-name="delete-button-icon" transform="translate(1655.326 1230.584)">
       <path id="delete-button-icon-14" data-name="delete-button-icon" d="M16.773,2A14.773,14.773,0,1,0,31.545,16.773,14.783,14.783,0,0,0,16.773,2Zm0,1.285A13.488,13.488,0,1,1,3.285,16.773,13.478,13.478,0,0,1,16.773,3.285Zm5.132,7.7a.642.642,0,0,0-.448.2l-4.684,4.684L12.088,11.18a.642.642,0,1,0-.908.908l4.684,4.684L11.18,21.457a.642.642,0,1,0,.908.908l4.684-4.684,4.684,4.684a.642.642,0,1,0,.908-.908l-4.684-4.684,4.684-4.684a.642.642,0,0,0-.46-1.105Z" transform="translate(-2 -2)" fill="#2177be"/>
     </g>
-    <g id="delete-button-icon-15" data-name="delete-button-icon" transform="translate(649.636 581.576)">
+    <g id="Group_107" data-name="Group 107" transform="translate(-70.684 894.584)">
+      <g id="Rectangle_32-5" data-name="Rectangle 32" transform="translate(753.814 326)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="293" height="49" stroke="none"/>
+        <rect x="0.5" y="0.5" width="292" height="48" fill="none"/>
+      </g>
+      <g id="Path_16-5" data-name="Path 16" transform="translate(753.814 326)" fill="#2177be">
+        <path d="M 58.5 48.5 L 0.5 48.5 L 0.5 0.5 L 58.5 0.5 L 58.5 48.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 48 L 58 48 L 58 1 L 1 1 M 0 0 L 59 0 L 59 49 L 0 49 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <text id="Mon-5" data-name="Mon" transform="translate(762.814 358)" fill="#fff" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Mon</tspan></text>
+      <line id="Line_10-17" data-name="Line 10" y2="49" transform="translate(812.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-18" data-name="Line 10" y2="49" transform="translate(872.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-19" data-name="Line 10" y2="49" transform="translate(932.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-20" data-name="Line 10" y2="49" transform="translate(992.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Path_15-5" data-name="Path 15" d="M0,45" transform="translate(1052.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <text id="Tues-5" data-name="Tues" transform="translate(821.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Tues</tspan></text>
+      <g id="Path_17-5" data-name="Path 17" transform="translate(872.814 326)" fill="#2177be">
+        <path d="M 58.5 48.5 L 0.5 48.5 L 0.5 0.5 L 58.5 0.5 L 58.5 48.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 48 L 58 48 L 58 1 L 1 1 M 0 0 L 59 0 L 59 49 L 0 49 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <text id="Wed-5" data-name="Wed" transform="translate(882.814 358)" fill="#fff" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Wed</tspan></text>
+      <text id="Thu-5" data-name="Thu" transform="translate(945.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Thu</tspan></text>
+      <text id="Fri-5" data-name="Fri" transform="translate(1008.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Fri</tspan></text>
+    </g>
+    <g id="Rectangle_41" data-name="Rectangle 41" transform="translate(274.913 1286.887)" fill="#fff" stroke="#242424" stroke-width="1">
+      <rect width="350.446" height="49" stroke="none"/>
+      <rect x="0.5" y="0.5" width="349.446" height="48" fill="none"/>
+    </g>
+    <text id="Lab_name-4" data-name="Lab name" transform="translate(285.67 1315.152)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">Lab name</tspan></text>
+    <g id="Group_108" data-name="Group 108" transform="translate(1030.725 1286.887)">
+      <g id="Rectangle_21-6" data-name="Rectangle 21" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="135.639" height="49" stroke="none"/>
+        <rect x="0.5" y="0.5" width="134.639" height="48" fill="none"/>
+      </g>
+      <g id="expand-arrow-icon-11" data-name="expand-arrow-icon" transform="translate(106.242 20.37)">
+        <path id="expand-arrow-icon-12" data-name="expand-arrow-icon" d="M3.549,12.906l-.8.71,8.487,7.55,8.487-7.55-.8-.71-7.689,6.84Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
+      </g>
+    </g>
+    <text id="to-6" data-name="to" transform="translate(1191.729 1316.415)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">to</tspan></text>
+    <text id="_10:00am-6" data-name="10:00am" transform="translate(1043.947 1314.989)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:00am</tspan></text>
+    <g id="Group_109" data-name="Group 109" transform="translate(1408.326 1286.887)">
+      <g id="Rectangle_22-6" data-name="Rectangle 22" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="226" height="49" stroke="none"/>
+        <rect x="0.5" y="0.5" width="225" height="48" fill="none"/>
+      </g>
+      <text id="Location-6" data-name="Location" transform="translate(15 30)" fill="#242424" font-size="19" font-family="Helvetica"><tspan x="0" y="0">Location</tspan></text>
+    </g>
+    <g id="delete-button-icon-15" data-name="delete-button-icon" transform="translate(1655.326 1296.887)">
       <path id="delete-button-icon-16" data-name="delete-button-icon" d="M16.773,2A14.773,14.773,0,1,0,31.545,16.773,14.783,14.783,0,0,0,16.773,2Zm0,1.285A13.488,13.488,0,1,1,3.285,16.773,13.478,13.478,0,0,1,16.773,3.285Zm5.132,7.7a.642.642,0,0,0-.448.2l-4.684,4.684L12.088,11.18a.642.642,0,1,0-.908.908l4.684,4.684L11.18,21.457a.642.642,0,1,0,.908.908l4.684-4.684,4.684,4.684a.642.642,0,1,0,.908-.908l-4.684-4.684,4.684-4.684a.642.642,0,0,0-.46-1.105Z" transform="translate(-2 -2)" fill="#2177be"/>
+    </g>
+    <g id="Group_110" data-name="Group 110" transform="translate(-70.684 960.887)">
+      <g id="Rectangle_32-6" data-name="Rectangle 32" transform="translate(753.814 326)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="293" height="49" stroke="none"/>
+        <rect x="0.5" y="0.5" width="292" height="48" fill="none"/>
+      </g>
+      <g id="Path_16-6" data-name="Path 16" transform="translate(753.814 326)" fill="#2177be">
+        <path d="M 58.5 48.5 L 0.5 48.5 L 0.5 0.5 L 58.5 0.5 L 58.5 48.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 48 L 58 48 L 58 1 L 1 1 M 0 0 L 59 0 L 59 49 L 0 49 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <text id="Mon-6" data-name="Mon" transform="translate(762.814 358)" fill="#fff" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Mon</tspan></text>
+      <line id="Line_10-21" data-name="Line 10" y2="49" transform="translate(812.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-22" data-name="Line 10" y2="49" transform="translate(872.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-23" data-name="Line 10" y2="49" transform="translate(932.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_10-24" data-name="Line 10" y2="49" transform="translate(992.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Path_15-6" data-name="Path 15" d="M0,45" transform="translate(1052.314 326)" fill="none" stroke="#707070" stroke-width="1"/>
+      <text id="Tues-6" data-name="Tues" transform="translate(821.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Tues</tspan></text>
+      <g id="Path_17-6" data-name="Path 17" transform="translate(872.814 326)" fill="#2177be">
+        <path d="M 58.5 48.5 L 0.5 48.5 L 0.5 0.5 L 58.5 0.5 L 58.5 48.5 Z" stroke="none"/>
+        <path d="M 1 1 L 1 48 L 58 48 L 58 1 L 1 1 M 0 0 L 59 0 L 59 49 L 0 49 L 0 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <text id="Wed-6" data-name="Wed" transform="translate(882.814 358)" fill="#fff" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Wed</tspan></text>
+      <text id="Thu-6" data-name="Thu" transform="translate(945.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Thu</tspan></text>
+      <text id="Fri-6" data-name="Fri" transform="translate(1008.814 358)" fill="#242424" font-size="19" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Fri</tspan></text>
+    </g>
+    <g id="Group_112" data-name="Group 112" transform="translate(-10.936)">
+      <g id="Group_111" data-name="Group 111" transform="translate(1235.181 437)">
+        <g id="Rectangle_21-7" data-name="Rectangle 21" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
+          <rect width="135.639" height="49" stroke="none"/>
+          <rect x="0.5" y="0.5" width="134.639" height="48" fill="none"/>
+        </g>
+        <g id="expand-arrow-icon-13" data-name="expand-arrow-icon" transform="translate(106.242 20.37)">
+          <path id="expand-arrow-icon-14" data-name="expand-arrow-icon" d="M3.549,12.906l-.8.71,8.487,7.55,8.487-7.55-.8-.71-7.689,6.84Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
+        </g>
+      </g>
+      <text id="_10:30am" data-name="10:30am" transform="translate(1248.403 465.101)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:30am</tspan></text>
+    </g>
+    <g id="Group_113" data-name="Group 113" transform="translate(-10.936 204.231)">
+      <g id="Group_111-2" data-name="Group 111" transform="translate(1235.181 437)">
+        <g id="Rectangle_21-8" data-name="Rectangle 21" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
+          <rect width="135.639" height="49" stroke="none"/>
+          <rect x="0.5" y="0.5" width="134.639" height="48" fill="none"/>
+        </g>
+        <g id="expand-arrow-icon-15" data-name="expand-arrow-icon" transform="translate(106.242 20.37)">
+          <path id="expand-arrow-icon-16" data-name="expand-arrow-icon" d="M3.549,12.906l-.8.71,8.487,7.55,8.487-7.55-.8-.71-7.689,6.84Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
+        </g>
+      </g>
+      <text id="_10:30am-2" data-name="10:30am" transform="translate(1248.403 465.101)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:30am</tspan></text>
+    </g>
+    <g id="Group_114" data-name="Group 114" transform="translate(-2.087 650.976)">
+      <g id="Group_111-3" data-name="Group 111" transform="translate(1235.181 437)">
+        <g id="Rectangle_21-9" data-name="Rectangle 21" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
+          <rect width="135.639" height="49" stroke="none"/>
+          <rect x="0.5" y="0.5" width="134.639" height="48" fill="none"/>
+        </g>
+        <g id="expand-arrow-icon-17" data-name="expand-arrow-icon" transform="translate(106.242 20.37)">
+          <path id="expand-arrow-icon-18" data-name="expand-arrow-icon" d="M3.549,12.906l-.8.71,8.487,7.55,8.487-7.55-.8-.71-7.689,6.84Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
+        </g>
+      </g>
+      <text id="_10:30am-3" data-name="10:30am" transform="translate(1248.403 465.101)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:30am</tspan></text>
+    </g>
+    <g id="Group_115" data-name="Group 115" transform="translate(-2.087 717.28)">
+      <g id="Group_111-4" data-name="Group 111" transform="translate(1235.181 437)">
+        <g id="Rectangle_21-10" data-name="Rectangle 21" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
+          <rect width="135.639" height="49" stroke="none"/>
+          <rect x="0.5" y="0.5" width="134.639" height="48" fill="none"/>
+        </g>
+        <g id="expand-arrow-icon-19" data-name="expand-arrow-icon" transform="translate(106.242 20.37)">
+          <path id="expand-arrow-icon-20" data-name="expand-arrow-icon" d="M3.549,12.906l-.8.71,8.487,7.55,8.487-7.55-.8-.71-7.689,6.84Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
+        </g>
+      </g>
+      <text id="_10:30am-4" data-name="10:30am" transform="translate(1248.403 465.101)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:30am</tspan></text>
+    </g>
+    <g id="Group_116" data-name="Group 116" transform="translate(-2.087 783.584)">
+      <g id="Group_111-5" data-name="Group 111" transform="translate(1235.181 437)">
+        <g id="Rectangle_21-11" data-name="Rectangle 21" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
+          <rect width="135.639" height="49" stroke="none"/>
+          <rect x="0.5" y="0.5" width="134.639" height="48" fill="none"/>
+        </g>
+        <g id="expand-arrow-icon-21" data-name="expand-arrow-icon" transform="translate(106.242 20.37)">
+          <path id="expand-arrow-icon-22" data-name="expand-arrow-icon" d="M3.549,12.906l-.8.71,8.487,7.55,8.487-7.55-.8-.71-7.689,6.84Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
+        </g>
+      </g>
+      <text id="_10:30am-5" data-name="10:30am" transform="translate(1248.403 465.101)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:30am</tspan></text>
+    </g>
+    <g id="Group_117" data-name="Group 117" transform="translate(-2.087 849.887)">
+      <g id="Group_111-6" data-name="Group 111" transform="translate(1235.181 437)">
+        <g id="Rectangle_21-12" data-name="Rectangle 21" transform="translate(0)" fill="#fff" stroke="#707070" stroke-width="1">
+          <rect width="135.639" height="49" stroke="none"/>
+          <rect x="0.5" y="0.5" width="134.639" height="48" fill="none"/>
+        </g>
+        <g id="expand-arrow-icon-23" data-name="expand-arrow-icon" transform="translate(106.242 20.37)">
+          <path id="expand-arrow-icon-24" data-name="expand-arrow-icon" d="M3.549,12.906l-.8.71,8.487,7.55,8.487-7.55-.8-.71-7.689,6.84Z" transform="translate(-2.75 -12.906)" fill="#242424"/>
+        </g>
+      </g>
+      <text id="_10:30am-6" data-name="10:30am" transform="translate(1248.403 465.101)" fill="#242424" font-size="18" font-family="Helvetica"><tspan x="0" y="0">10:30am</tspan></text>
     </g>
   </g>
 </svg>
