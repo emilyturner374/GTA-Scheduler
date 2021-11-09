@@ -37,7 +37,14 @@ students =  {
                     'takenTimeSlots': {} 
                 }
             } 
+#list so we may shuffle keys to iterate randomly through dictionaries
+courseList = list(courses.keys())
+stuList = list(students.keys())
 
+#shuffles keys for random iteration
+def shuffKeys(courseList, stuList):
+    random.shuffle(courseList)
+    random.shuffle(stuList)
 
 # returns the how much overlap there is between two intervals (0 meaning there is no overlap)
 def getOverlap(a, b):
@@ -48,6 +55,8 @@ def getOverlap(a, b):
 def isTimeSlotAvailable(student, course, section):
     if len(students[student]['takenTimeSlots']) == 0: # student is not teaching any courses
         return True
+    if len(students[student]['coursesBeingTaught']) > 0:  # student already has assignment (we will edit number with max assignments)
+        return False
     
     # iterate through each day in the course's section, check if student is teaching on that day, and checks for any overlap in between the intervals in the student time slots for that day and the given time slot for the course's section
     for day in courses[course]['sections'][section]['days']:
@@ -61,10 +70,10 @@ def isTimeSlotAvailable(student, course, section):
 
 # generates the schedules for the GTAs
 def schedule():
-    for course in courses: # loop through each course
+    for course in courseList: # loop through each course
         for section in courses[course]['sections']: # get the section in the course
             if courses[course]['sections'][section]['status'] == 'open': # check if the status of the section within the course is open
-                for student in students: # if it's open, loop through each student
+                for student in stuList: # if it's open, loop through each student
                     if isTimeSlotAvailable(student, course, section): # checks if the time slot of that section is available compared to the time slots already taken by the student
                         courseTimeSlot = courses[course]['sections'][section]['timeSlot'] # stores the course's section's time slot
 
@@ -85,5 +94,7 @@ def schedule():
                         break # breaks out of the students for loop after it assigns a student to the time slot for that particular section
 
                         
+shuffKeys(courseList, stuList)
 schedule()
 pprint.pprint(students, sort_dicts=False)
+pprint.pprint(courses, sort_dicts=False)
