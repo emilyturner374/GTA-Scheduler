@@ -1,4 +1,5 @@
 import pprint
+import random
 
 courses =   {
                 'CSCI1170': 
