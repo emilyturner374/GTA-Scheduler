@@ -40,8 +40,12 @@ export const Logout = styled(LinkR)`
 `
 
 export const LogoWrap = styled.div`
-    height: 54px;
+    height: 40px;
     width: 45px;
+    //border: #707070 solid 1px;
     display: flex;
     align-items: center;
+`
+export const GtaLogoWrap = styled(LogoWrap)` 
+    width: 55px;
 `

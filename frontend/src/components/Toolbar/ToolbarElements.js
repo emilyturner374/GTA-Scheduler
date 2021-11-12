@@ -44,3 +44,4 @@ export const SearchBox = styled.input`
         outline: none;
     }
 `
+/* Create styled buttons to make icons clickable */
