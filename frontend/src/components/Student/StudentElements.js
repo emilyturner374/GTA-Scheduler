@@ -1,64 +1,46 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-/*Size of StudentContainer will have to change 
-* dynamically as students and courses are added
-*/
-export const LabContainer = styled.div`
-    width: 1200px;
-    height: 300px;
-    background: #ffffff;
-    border: #707070 solid 1px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    box-shadow: 5px 5px 5px #d9d9d9;
-`
-
-export const LabHeader = styled.div`
-    width: 1200px;
-    height: 50px;
-    background: #f0f0f0;
-    border-bottom: #707070 solid 1px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Helvetica;
-    font-size: 20px;
-    color: #242424;
-`
-
-export const ContentWrap = styled.div`
-    width: 1200px;
-    height: 250px;
-    //border: #707070 solid 1px;
-    display: flex;
-    align-items: center;
-    justify-content: top;
-    flex-direction: column;
-    padding-top: 25px;
-    font-family: Helvetica;
-    font-size: 20px;
-    counter-reset: css-counter 0;
-`
-
-export const LabInfoWrap = styled.div`
+export const NumWrap = styled.div` 
     width: 1000px;
-    height: 60px;
+    //Height will be adjustable
+    height: 150px;
     //border: #707070 solid 1px;
     display: flex;
     align-items: left;
     justify-content: top;
-    flex-direction: rom;
-    margin: 10px 10px 30px 0px;
+    flex-direction: row;
     font-family: Helvetica;
     font-size: 20px;
-    color: #242424;
+    margin-bottom: 20px;
     counter-increment: css-counter 1;
     &:before{
         content: counter(css-counter) ". ";
         margin-top: 20px;
     }
 `
-export const LabInfo = styled.div`
+export const StudentInfo = styled.div`
+    width: 900px;
+    //Height will be adjustable
+    height: 150px;
+    //border: #707070 solid 1px;
+    display: flex;
+    align-items: left;
+    justify-content: top;
+    flex-direction: column;
+    font-family: Helvetica;
+    font-size: 20px;
+    margin-bottom: 20px;
+`
+export const NameWrap = styled.div`
+    width: 300px;
+    height: 40px;
+    //border: #707070 solid 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 10px 10px 0px;
+`
+export const CourseInfoWrap = styled.div`
     width: 900px;
     height: 40px;
     //border: #707070 solid 1px;
@@ -71,7 +53,6 @@ export const LabInfo = styled.div`
     font-size: 15px;
     color: #242424;
 `
-
 export const InputBox = styled.input`
     width: 200px;
     height: 35px;
@@ -86,6 +67,7 @@ export const InputBox = styled.input`
         outline: none;
     }
 `
+
 export const TimeWrap = styled.div` 
     width: 260px;
     height: 35px;
@@ -172,17 +154,21 @@ export const DayBtn = styled.button`
         color: #ffffff;
     }
 `
-export const AddLabBtn = styled.button` 
-    width: 150px;
-    height: 40px;
-    background: #f0f0f0;
-    border: #707070 solid 1px;
+export const AddCourseBtn = styled.button` 
+    width: 90px;
+    height: 30px;
+    background: none;
+    border: none;
+    //border: #707070 solid 1px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin-left: 10px;
     font-family: Helvetica;
-    color: #242424;
+    font-size: 12px;
+    color: #357bb8;
+    
     &:hover {
-        background: #e0e0e0;
+        text-decoration: underline;
     }
 `

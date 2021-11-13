@@ -1,4 +1,4 @@
-import { BgContainer } from './FormElements'
+import { BgContainer, BtnWrap, SaveBtn } from './FormElements'
 import StudentList from '../../components/StudentList'
 import LabList from '../../components/LabList'
 
@@ -7,6 +7,11 @@ const GtaListForm = () => {
         <BgContainer>
             <StudentList/>
             <LabList/>
+            <BtnWrap>
+                <SaveBtn>
+                    Save
+                </SaveBtn>
+            </BtnWrap>
         </BgContainer>
     );
 };

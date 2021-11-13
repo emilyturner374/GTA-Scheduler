@@ -15,6 +15,9 @@ import { LabContainer,
         from "./LabListElements";
         
 const LabList = () => {
+    function addLabClick(){
+
+    }
     return(
         <LabContainer>
             <LabHeader>
