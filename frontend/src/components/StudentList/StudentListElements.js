@@ -5,7 +5,7 @@ import styled from "styled-components";
 */
 export const StudentContainer = styled.div`
     width: 1200px;
-    height: 350px;
+    height: auto;
     background: #ffffff;
     border: #707070 solid 1px;
     margin-top: 70px;
@@ -25,13 +25,13 @@ export const StudentHeader = styled.div`
 `
 export const ContentWrap = styled.div`
     width: 1200px;
-    height: 300px;
+    height: auto;
     //border: #707070 solid 1px;
     display: flex;
     align-items: center;
     justify-content: top;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 40px;
     font-family: Helvetica;
     font-size: 20px;
     counter-reset: css-counter 0;
@@ -46,6 +46,7 @@ export const AddStudentBtn = styled.button`
     justify-content: center;
     font-family: Helvetica;
     color: #242424;
+    margin-bottom: 40px;
     &:hover {
         background: #e0e0e0;
     }
