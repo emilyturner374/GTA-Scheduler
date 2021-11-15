@@ -14,6 +14,3 @@ export const CalContainer = styled.div`
     padding-left: 35px;
     margin: 0px;
 `
-
-export const ScrollBar = styled.div`
-`
