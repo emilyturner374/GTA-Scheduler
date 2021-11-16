@@ -1,5 +1,11 @@
-import { BsSearch, BsCalendar2Plus, BsPencilSquare } from 'react-icons/bs'
-import { Container, ToolWrap, SearchWrap, SearchBox } from './ToolbarElements';
+import { BsSearch, BsPencilSquare } from 'react-icons/bs'
+import { Container, EditBtn, SearchWrap, SearchBox } from './ToolbarElements';
+import { Link } from 'react-router-dom';
+
+const linkStyle = {
+    color: '#242424',
+    textDecoration: 'none'
+};
 
 const Toolbar = () => {
     return(
@@ -8,11 +14,15 @@ const Toolbar = () => {
                 <BsSearch size="12px" color="#000000"/>
                 <SearchBox defaultValue="Search"/>
             </SearchWrap>
-            <ToolWrap>
+            
+            <EditBtn>
                 {/* Put react icons here */}
-                <BsPencilSquare size="25px"/>
-                <BsCalendar2Plus size="25px"/>
-            </ToolWrap>
+                <BsPencilSquare size="20px"/>
+                <Link to="/form" style={linkStyle}>
+                Edit Lists
+                </Link>
+            </EditBtn>
+            
         </Container>  
     );
 };

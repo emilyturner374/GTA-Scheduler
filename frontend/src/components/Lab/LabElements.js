@@ -133,3 +133,15 @@ export const DayBtn = styled.button`
         color: #ffffff;
     }
 `
+export const DeleteLabBtn = styled.button` 
+    width: 25px;
+    height: 25px;
+    background: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+        text-decoration: underline;
+        border: #357bb8 solid 1px;
+    }
+`
