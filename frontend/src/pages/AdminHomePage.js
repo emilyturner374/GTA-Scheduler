@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Titlebar from '../components/Titlebar';
 import Toolbar from '../components/Toolbar';
-import CalendarDisplay from '../components/Calendar/CalendarDisplay';
+//import CalendarDisplay from '../components/Calendar/CalendarDisplay';
 
 
 function AdminHomePage() {
@@ -12,7 +12,7 @@ function AdminHomePage() {
         <Header/>
         <Titlebar/>
         <Toolbar/>
-        <CalendarDisplay/>
+        {/*<CalendarDisplay/>*/}
     </div>
   );
 };

@@ -13,14 +13,18 @@ export const Container = styled.div`
     padding-left: 35px;
     padding-right: 35px;
 `
-export const ToolWrap = styled.div`
-    width: 75px;
+export const EditBtn = styled.button`
+    width: 95px;
     height: 30px;
-    //border: #707070 solid 1px;
+    background: none;
+    border: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #3c3c3c;
+    &:hover{
+        text-decoration: underline;
+    }
 `
 export const SearchWrap = styled.div`
     display: flex;
@@ -44,4 +48,5 @@ export const SearchBox = styled.input`
         outline: none;
     }
 `
+
 /* Create styled buttons to make icons clickable */

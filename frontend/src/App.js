@@ -1,6 +1,6 @@
-import {BrowserRouter as Router} from 'react-router-dom';
+import {BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
 import React from 'react';
-//import AdminHomePage from './pages/AdminHomePage';
+import AdminHomePage from './pages/AdminHomePage';
 import FormPage from './pages/FormPage';
 
 function App() {
@@ -16,8 +16,11 @@ function App() {
           }
         `}</style>
       </div>
-      <FormPage/>
-      {/*<AdminHomePage/>*/}
+      
+      <Routes>
+        <Route exact path='/' element={<AdminHomePage/>}/>
+        <Route path='/form' element={<FormPage/>}/>
+      </Routes>
     </Router>
   );
 }

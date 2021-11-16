@@ -18,41 +18,27 @@ const defaultStudentVals = {
     //courseList: []
 };
 
-const defaultStudentList = {
-    studentList: [defaultStudentVals],
-};
-
 export default function StudentList() {
-    const [students, setStudents] = useState(defaultStudentList);
-    const { studentList } = students;
+    const [students, setStudents] = useState([defaultStudentVals]);
     
-    function changeStudentName(val) {
-        setStudents((prev) => ({
-                ...prev,
-                studentName : val
-             }))
+    function changeStudentName(val, id) {
+        const newStudents = [...students];
+        const index = newStudents.findIndex(student => student.id === id);
+        newStudents[index].studentName = val;
+        setStudents(newStudents); 
+        console.log("courses before map:")
         console.log(students);
     }
     
-    function changeMnumber(val) {
-        setStudents((prev) => ({
-                ...prev,
-                mNumber : val
-             }))
-        console.log(students);
+    function changeMnumber(val, id) {
+        const newStudents = [...students];
+        const index = newStudents.findIndex(student => student.id === id);
+        newStudents[index].mNumber = val;
+        setStudents(newStudents); 
     }
 
     function deleteStudent(val){
-        //setStudents(studentList.filter(student => student.id !== val));
-        
-        const index = studentList.findIndex(({ id }) => id === val);
-        if (index !== -1) {
-            setStudents([
-                ...studentList.slice(0, index),
-                ...studentList.slice(index + 1)
-            ]);
-        }
-        
+        return setStudents(prev=>prev.filter(student => student.id !== val));
     }
 
     return (
@@ -61,26 +47,25 @@ export default function StudentList() {
                 Student List
             </StudentHeader>
             <ContentWrap>
-                {studentList.map((student) => {
+                {students.map((student) => {
                     const { mNumber, studentName, id } = student;
                     return(
                         <Student
-                            studentName={studentName}
-                            mNumber={mNumber}
+                            key = {id}
+                            id = {id}
+                            studentName = {studentName}
+                            mNumber = {mNumber}
                             changeStudentName = {changeStudentName}
                             changeMnumber = {changeMnumber}
                             deleteStudent = {deleteStudent}
-                            id = {id}
                             //courseList={courseList}
                         />
                     );
                 })}
                 <AddStudentBtn 
                     type='button'
-                    onClick={() => setStudents( (prev) => ({
-                        ...prev,
-                        studentList: [ 
-                            ...prev.studentList,
+                    onClick={() => setStudents( [
+                            ...students,
                             {
                                 //Default values
                                 id: uniqid(),
@@ -89,8 +74,7 @@ export default function StudentList() {
                                 //courseList: []
                             }
                         ]
-                        
-                    }))}
+                    )}
                 >
                     Add student
                 </AddStudentBtn>

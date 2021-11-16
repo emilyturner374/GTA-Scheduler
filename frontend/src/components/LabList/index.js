@@ -10,60 +10,65 @@ import { LabContainer,
 const defaultLabVals = {
     //Make default mNumber a random number
     //so empty entries can still be deleted
-    id: uniqid(),
+    labId: uniqid(),
     labName: '',
     days: '',
     startTime: '',
+    startAmPm: '',
     endTime: '',
+    endAmPm: '',
     //courseList: []
 };
 
-const defaultLabList = {
-    labList: [defaultLabVals],
-};        
 export default function LabList() {
-    const [labs, setLabs] = useState(defaultLabList);
-    const { labList } = labs;
+    const [labs, setLabs] = useState([defaultLabVals]);
     
-    function changeLabName(val) {
-        setLabs((prev) => ({
-                ...prev,
-                labName : val
-             }))
+    function changeLabName(val, id) {
+        const newLabs = [...labs];
+        const index = newLabs.findIndex(lab => lab.labId === id);
+        newLabs[index].labName = val;
+        setLabs(newLabs); 
+        console.log("labs before map:")
         console.log(labs);
     }
-    function changeDays(val) {
-        setLabs((prev) => ({
-                ...prev,
-                days : val
-             }))
-        console.log(labs);
+    function changeDays(val, id) {
+        const newLabs = [...labs];
+        const index = newLabs.findIndex(lab => lab.labId === id);
+        newLabs[index].days = val;
+        setLabs(newLabs); 
     }
 
-    function changeStart(val) {
-        setLabs((prev) => ({
-                ...prev,
-                startTime : val
-             }))
-        console.log(labs);
+    function changeStart(val, id) {
+        const newLabs = [...labs];
+        const index = newLabs.findIndex(lab => lab.labId === id);
+        newLabs[index].startTime = val;
+        setLabs(newLabs); 
     }
-    
-    function changeEnd(val) {
-        setLabs((prev) => ({
-                ...prev,
-                endTime : val
-             }))
-        console.log(labs);
+
+    function changeStartAmPm(val, id) {
+        const newLabs = [...labs];
+        const index = newLabs.findIndex(lab => lab.labId === id);
+        newLabs[index].startAmPm = val;
+        setLabs(newLabs); 
+    }
+
+    function changeEnd(val, id) {
+        const newLabs = [...labs];
+        const index = newLabs.findIndex(lab => lab.labId === id);
+        newLabs[index].endTime = val;
+        setLabs(newLabs); 
+    }
+
+    function changeEndAmPm(val, id) {
+        const newLabs = [...labs];
+        const index = newLabs.findIndex(lab => lab.labId === id);
+        newLabs[index].endAmPm = val;
+        setLabs(newLabs); 
     }
 
     function deleteLab(val){
-        const index = labList.findIndex(({ id }) => id === val);
-        if (index !== -1) {
-            setLabs([
-                ...labList.slice(0, index),
-                ...labList.slice(index + 1)
-            ]);
-        }
+        console.log(labs.filter(lab => lab.labId !== val));
+        return setLabs(prev=>prev.filter(lab => lab.labId !== val));
     }
 
     return(
@@ -72,19 +77,32 @@ export default function LabList() {
                 Lab List
             </LabHeader>
             <ContentWrap>
-                {labList.map((lab) => {
-                    const { labName, days, startTime, endTime, id } = lab;
+                {labs.map((lab) => {
+                    const { labId,  
+                            labName,
+                            days,
+                            startTime,
+                            startAmPm,
+                            endTime,
+                            endAmPm,} = lab;
+                    console.log(labs);
+
                     return(
                         <Lab
-                            labName={labName}
-                            days={days}
-                            startTime={startTime}
-                            endTime={endTime}
-                            id = {id}
+                            key = {labId}
+                            labId = {labId}
+                            labName = {labName}
+                            days = {days}
+                            startTime = {startTime}
+                            startAmPm = {startAmPm}
+                            endTime = {endTime}
+                            endAmPm = {endAmPm}
                             changeLabName = {changeLabName}
                             changeDays = {changeDays}
                             changeStart = {changeStart}
+                            changeStartAmPm = {changeStartAmPm}
                             changeEnd = {changeEnd}
+                            changeEndAmPm = {changeEndAmPm}
                             deleteLab = {deleteLab}
                             //courseList={courseList}
                         />
@@ -92,21 +110,16 @@ export default function LabList() {
                 })}
                 <AddLabBtn
                     type='button'
-                    onClick={() => setLabs( (prev) => ({
-                        ...prev,
-                        labList: [ 
-                            ...prev.labList,
-                            {
-                                //Default values
-                                id: uniqid(),
-                                labName: '',
-                                days: '',
-                                startTime: '',
-                                endTime: '',
-                            }
-                        ]
-                        
-                    }))}
+                    onClick={() => setLabs([ ...labs, 
+                        {labId: uniqid(),
+                            labName: '',
+                            days: '',
+                            startTime: '',
+                            startAmPm: '',
+                            endTime: '',
+                            endAmPm: '',    
+                        }
+                    ])}
                 >
                     Add lab
                 </AddLabBtn>

@@ -17,78 +17,85 @@ const defaultCourseVals = {
     courseName: '',
     days: '',
     startTime: '',
-    endTime: ''
-}
-
-const defaultCourseList = {
-    courseList: [defaultCourseVals],
+    startAmPm: '',
+    endTime: '',
+    endAmPm: ''
 };
 
+
 export default function Student({ id,
-                                mNumber, 
-                                studentName, 
+                                studentName,
+                                mNumber,
                                 changeStudentName,
                                 changeMnumber,
                                 deleteStudent }) {
-    const [courses, setCourses] = useState(defaultCourseList);
-    const { courseList } = courses;
+    const [courses, setCourses] = useState([defaultCourseVals]);
 
-    function changeCourseName(val) {
-        setCourses((prev) => ({
-                ...prev,
-                courseName : val
-             }))
+    function changeCourseName(val, id) {
+        const newCourses = [...courses];
+        const index = newCourses.findIndex(course => course.courseId === id);
+        newCourses[index].courseName = val;
+        setCourses(newCourses); 
+        console.log("courses before map:")
         console.log(courses);
     }
-    function changeDays(val) {
-        setCourses((prev) => ({
-                ...prev,
-                days : val
-             }))
-        console.log(courses);
+    function changeDays(val, id) {
+        const newCourses = [...courses];
+        const index = newCourses.findIndex(course => course.courseId === id);
+        newCourses[index].days = val;
+        setCourses(newCourses); 
     }
 
-    function changeStart(val) {
-        setCourses((prev) => ({
-                ...prev,
-                startTime : val
-             }))
-        console.log(courses);
+    function changeStart(val, id) {
+        const newCourses = [...courses];
+        const index = newCourses.findIndex(course => course.courseId === id);
+        newCourses[index].startTime = val;
+        setCourses(newCourses); 
     }
-    
-    function changeEnd(val) {
-        setCourses((prev) => ({
-                ...prev,
-                endTime : val
-             }))
-        console.log(courses);
-    }
-    
-    function deleteLab(val){
-        const index = courseList.findIndex(({ id }) => id === val);
-        if (index !== -1) {
-            setCourses([
-                ...courseList.slice(0, index),
-                ...courseList.slice(index + 1)
-            ]);
-        }
-    }
-    
 
+    function changeStartAmPm(val, id) {
+        const newCourses = [...courses];
+        const index = newCourses.findIndex(course => course.courseId === id);
+        newCourses[index].startAmPm = val;
+        setCourses(newCourses); 
+    }
 
+    function changeEnd(val, id) {
+        const newCourses = [...courses];
+        const index = newCourses.findIndex(course => course.courseId === id);
+        newCourses[index].endTime = val;
+        setCourses(newCourses); 
+    }
+
+    function changeEndAmPm(val, id) {
+        const newCourses = [...courses];
+        const index = newCourses.findIndex(course => course.courseId === id);
+        newCourses[index].endAmPm = val;
+        setCourses(newCourses); 
+    }
+
+    function deleteCourse(val){
+        return setCourses(prev=>prev.filter(course => course.courseId !== val));
+    }
+
+    function handleDeleteStudent(id){
+        const defaultCourses = [defaultCourseVals];
+        setCourses(defaultCourses);
+        deleteStudent(id);
+    }
     return(
         <NumWrap>
             <StudentInfo>
                 <NameWrap>
                     <InputBox 
-                        placeholder="Student name" 
-                        defaultValue={studentName}
-                        onChange={ e => changeStudentName(e.target.value)}
+                        placeholder = "Student name" 
+                        value = {studentName}
+                        onChange = { e => changeStudentName(e.target.value, id)}
                     />
                     <MnumInput 
-                        placeholder="M-number" 
-                        defaultValue={mNumber}
-                        onChange={ e => changeMnumber(e.target.value)}
+                        placeholder = "M-number" 
+                        value = {mNumber}
+                        onChange = { e => changeMnumber(e.target.value, id)}
                     />
                     {/*This icon will serve as a delete button
                         need to figure out logic to implement it
@@ -98,42 +105,53 @@ export default function Student({ id,
                     */}
                     <DeleteStudentBtn
                         type = "button"
-                        onClick = {deleteStudent({id})}
+                        onClick = {() => handleDeleteStudent(id)}
+                        
                     >
                         <BsXSquare color="#357bb8"/>
                     </DeleteStudentBtn>
                 </NameWrap>
-                {courseList.map((course) => {
-                    const { courseId, courseName, days, startTime, endTime} = course;
+                {courses.map((course) => {
+                    const { courseId, 
+                            courseName,
+                            days,
+                            startTime,
+                            startAmPm,
+                            endTime,
+                            endAmPm, } = course;
                     return(
                         <Course
+                            key = {courseId}
                             courseId = {courseId}
                             courseName = {courseName}
                             days = {days}
                             startTime = {startTime}
+                            startAmPm = {startAmPm}
                             endTime = {endTime}
+                            endAmPm = {endAmPm}
                             changeCourseName = {changeCourseName}
                             changeDays = {changeDays}
                             changeStart = {changeStart}
+                            changeStartAmPm = {changeStartAmPm}
                             changeEnd = {changeEnd}
-                            deleteLab = {deleteLab}
+                            changeEndAmPm = {changeEndAmPm}
+                            deleteCourse = {deleteCourse}
                         />
                     );
                 })}
                 <AddCourseBtn 
                     type='button'
-                    onClick={() => setCourses( (prev) => ({
-                        ...prev,
-                        courseList: [ 
-                            ...prev.courseList,
-                            {   courseId: uniqid(),
-                                courseName: '',
-                                days: '',
-                                startTime: '',
-                                endTime: ''
-                            }
-                        ]
-                    }))}
+                    onClick={() => setCourses( [
+                        ...courses,
+                        {   courseId: uniqid(),
+                            courseName: '',
+                            days: '',
+                            startTime: '',
+                            startAmPm: '',
+                            endTime: '',
+                            endAmPm: '',
+                        }
+                    ])}
                 >
                     <BsPlusCircle/>
                     Add course
