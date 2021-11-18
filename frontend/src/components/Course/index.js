@@ -1,4 +1,5 @@
 //{ useState } from 'react';
+//{ useState } from 'react';
 import { BsXCircle } from 'react-icons/bs';
 import  { CourseInfoWrap,
         InputBox,
@@ -12,19 +13,15 @@ import  { CourseInfoWrap,
         from './CourseElements';
        
 export default function Course(
-            {courseId, 
+            { studentId,
+            courseId, 
             courseName,
             days,
             startTime,
             startAmPm,
             endTime,
             endAmPm,
-            changeCourseName,
-            changeDays,
-            changeStart,
-            changeStartAmPm,
-            changeEnd,
-            changeEndAmPm,
+            changeCourseInfo,
             deleteCourse}
         ){    
         return(
@@ -32,7 +29,7 @@ export default function Course(
                 <InputBox 
                     placeholder="Course name"
                     value={courseName}
-                    onChange = { e => changeCourseName(e.target.value, courseId)}
+                    onChange = { e => changeCourseInfo(e.target.value, studentId, courseId, "courseName")}
                 />
                 <DaysWrap>
                     <DayBtn 
@@ -71,10 +68,10 @@ export default function Course(
                         <TimeInput 
                             placeholder="10:00"
                             value={startTime}
-                            onChange = { e => changeStart(e.target.value, courseId)}
+                            onChange = { e => changeCourseInfo(e.target.value, studentId, courseId, "startTime")}
                         />
                         <AmPmSelect
-                            onChange = { e => changeStartAmPm(e.target.value, courseId)}
+                            onChange = { e => changeCourseInfo(e.target.value, studentId, courseId, "startAmPm")}
                         >
                             <option value="am">am</option>
                             <option value="pm">pm</option>
@@ -85,10 +82,10 @@ export default function Course(
                         <TimeInput 
                             placeholder="10:30"
                             value={endTime}
-                            onChange = { e => changeEnd(e.target.value, courseId)}
+                            onChange = { e => changeCourseInfo(e.target.value, studentId, courseId, "endTime")}
                         />
                         <AmPmSelect
-                            onChange = { e => changeEndAmPm(e.target.value, courseId)}
+                            onChange = { e => changeCourseInfo(e.target.value, studentId, courseId, "endAmPm")}
                         >
                             <option value="am">am</option>
                             <option value="pm">pm</option>
@@ -97,7 +94,7 @@ export default function Course(
                 </TimeWrap>
                 <DeleteCourseBtn
                     type = "button"
-                    onClick = {() => deleteCourse(courseId)}
+                    onClick = {() => deleteCourse(studentId, courseId)}
                 >
                     <BsXCircle color="#357bb8" min-height="30px" min-width="30px"/>
                 </DeleteCourseBtn>
