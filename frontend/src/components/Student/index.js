@@ -26,51 +26,40 @@ const defaultCourseVals = {
 export default function Student({ id,
                                 studentName,
                                 mNumber,
+                                courses,
                                 changeStudentName,
                                 changeMnumber,
-                                deleteStudent }) {
-    const [courses, setCourses] = useState([defaultCourseVals]);
+                                deleteStudent,
+                                changeCourseInfo,
+                                deleteCourse,
+                                addCourse }) {
+    {/*const [courses, setCourses] = useState([defaultCourseVals]);
 
-    function changeCourseName(val, id) {
+    function changeCourseInfo(val, id, operation) {
         const newCourses = [...courses];
         const index = newCourses.findIndex(course => course.courseId === id);
-        newCourses[index].courseName = val;
-        setCourses(newCourses); 
-        console.log("courses before map:")
-        console.log(courses);
-    }
-    function changeDays(val, id) {
-        const newCourses = [...courses];
-        const index = newCourses.findIndex(course => course.courseId === id);
-        newCourses[index].days = val;
-        setCourses(newCourses); 
-    }
-
-    function changeStart(val, id) {
-        const newCourses = [...courses];
-        const index = newCourses.findIndex(course => course.courseId === id);
-        newCourses[index].startTime = val;
-        setCourses(newCourses); 
-    }
-
-    function changeStartAmPm(val, id) {
-        const newCourses = [...courses];
-        const index = newCourses.findIndex(course => course.courseId === id);
-        newCourses[index].startAmPm = val;
-        setCourses(newCourses); 
-    }
-
-    function changeEnd(val, id) {
-        const newCourses = [...courses];
-        const index = newCourses.findIndex(course => course.courseId === id);
-        newCourses[index].endTime = val;
-        setCourses(newCourses); 
-    }
-
-    function changeEndAmPm(val, id) {
-        const newCourses = [...courses];
-        const index = newCourses.findIndex(course => course.courseId === id);
-        newCourses[index].endAmPm = val;
+        switch(operation){
+            case 'courseName':
+                newCourses[index].courseName = val;
+                break;
+            case 'days':
+                newCourses[index].days = val;
+                break;
+            case 'startTime':
+                newCourses[index].startTime = val;
+                break;
+            case 'startAmPm':
+                newCourses[index].startAmPm = val;
+                break;
+            case 'endTime':
+                newCourses[index].endTime = val;
+                break;
+            case 'endAmPm':
+                newCourses[index].endAmPm = val;
+                break;
+            default:
+                break;
+        }
         setCourses(newCourses); 
     }
 
@@ -79,10 +68,12 @@ export default function Student({ id,
     }
 
     function handleDeleteStudent(id){
+        deleteStudent(id);
         const defaultCourses = [defaultCourseVals];
         setCourses(defaultCourses);
-        deleteStudent(id);
     }
+    */}
+
     return(
         <NumWrap>
             <StudentInfo>
@@ -105,12 +96,14 @@ export default function Student({ id,
                     */}
                     <DeleteStudentBtn
                         type = "button"
-                        onClick = {() => handleDeleteStudent(id)}
+                        onClick = {() => deleteStudent(id)}
                         
                     >
                         <BsXSquare color="#357bb8"/>
                     </DeleteStudentBtn>
                 </NameWrap>
+                {console.log("courses: ")}
+                {console.log(courses)}
                 {courses.map((course) => {
                     const { courseId, 
                             courseName,
@@ -122,6 +115,7 @@ export default function Student({ id,
                     return(
                         <Course
                             key = {courseId}
+                            studentId = {id}
                             courseId = {courseId}
                             courseName = {courseName}
                             days = {days}
@@ -129,29 +123,14 @@ export default function Student({ id,
                             startAmPm = {startAmPm}
                             endTime = {endTime}
                             endAmPm = {endAmPm}
-                            changeCourseName = {changeCourseName}
-                            changeDays = {changeDays}
-                            changeStart = {changeStart}
-                            changeStartAmPm = {changeStartAmPm}
-                            changeEnd = {changeEnd}
-                            changeEndAmPm = {changeEndAmPm}
+                            changeCourseInfo = {changeCourseInfo}
                             deleteCourse = {deleteCourse}
                         />
                     );
                 })}
                 <AddCourseBtn 
                     type='button'
-                    onClick={() => setCourses( [
-                        ...courses,
-                        {   courseId: uniqid(),
-                            courseName: '',
-                            days: '',
-                            startTime: '',
-                            startAmPm: '',
-                            endTime: '',
-                            endAmPm: '',
-                        }
-                    ])}
+                    onClick = {() => addCourse(id)}
                 >
                     <BsPlusCircle/>
                     Add course
@@ -160,3 +139,16 @@ export default function Student({ id,
         </NumWrap>
     );
 }
+
+{/*onClick={() => setCourses( [
+    ...courses,
+    {   courseId: uniqid(),
+        courseName: '',
+        days: '',
+        startTime: '',
+        startAmPm: '',
+        endTime: '',
+        endAmPm: '',
+    }
+])}
+*/}

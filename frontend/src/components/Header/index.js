@@ -2,10 +2,7 @@ import React from 'react';
 //import { ReactComponent as Bar} from '../../icons/separation-bar.svg'
 import { ReactComponent as SmallMtsuLogo } from '../../icons/small-mtsu-icon.svg';
 import { ReactComponent as GtaLogo } from '../../icons/small-gta-logo.svg';
-import { HeaderContainer, 
-            InfoWrapper, 
-            StudentInfo, 
-            Logout, 
+import { HeaderContainer,
             LogoWrap,
             GtaLogoWrap } from './HeaderElements';
 //import { BsBoxArrowRight } from "react-icons/bs";

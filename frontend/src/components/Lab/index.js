@@ -19,12 +19,7 @@ export default function Lab(
                         startAmPm,
                         endTime,
                         endAmPm,
-                        changeLabName,
-                        changeDays,
-                        changeStart,
-                        changeStartAmPm,
-                        changeEnd,
-                        changeEndAmPm,
+                        changeLabInfo,
                         deleteLab}
 ){    
     return(
@@ -33,7 +28,7 @@ export default function Lab(
                 <InputBox 
                     placeholder="Lab name"
                     value={labName}
-                    onChange = { e => changeLabName(e.target.value, labId)}
+                    onChange = { e => changeLabInfo(e.target.value, labId, "labName")}
                 />
                 <DaysWrap>
                     <DayBtn 
@@ -72,10 +67,10 @@ export default function Lab(
                         <TimeInput 
                             placeholder="10:00"
                             value={startTime}
-                            onChange = { e => changeStart(e.target.value, labId)}
+                            onChange = { e => changeLabInfo(e.target.value, labId, "startTime")}
                         />
                         <AmPmSelect
-                            onChange = { e => changeStartAmPm(e.target.value, labId)}
+                            onChange = { e => changeLabInfo(e.target.value, labId, "startAmPm")}
                         >
                             <option value="am">am</option>
                             <option value="pm">pm</option>
@@ -86,10 +81,10 @@ export default function Lab(
                         <TimeInput 
                             placeholder="10:30"
                             value={endTime}
-                            onChange = { e => changeEnd(e.target.value, labId)}
+                            onChange = { e => changeLabInfo(e.target.value, labId, "endTime")}
                         />
                         <AmPmSelect
-                            onChange = { e => changeEndAmPm(e.target.value, labId)}
+                            onChange = { e => changeLabInfo(e.target.value, labId, "endAmPm")}
                         >
                             <option value="am">am</option>
                             <option value="pm">pm</option>

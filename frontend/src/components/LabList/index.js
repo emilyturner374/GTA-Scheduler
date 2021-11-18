@@ -12,7 +12,7 @@ const defaultLabVals = {
     //so empty entries can still be deleted
     labId: uniqid(),
     labName: '',
-    days: '',
+    days: [''],
     startTime: '',
     startAmPm: '',
     endTime: '',
@@ -23,47 +23,34 @@ const defaultLabVals = {
 export default function LabList() {
     const [labs, setLabs] = useState([defaultLabVals]);
     
-    function changeLabName(val, id) {
+    function changeLabInfo(val, id, operation) {
         const newLabs = [...labs];
         const index = newLabs.findIndex(lab => lab.labId === id);
-        newLabs[index].labName = val;
+        
+        switch(operation){
+            case 'labName':
+                newLabs[index].labName = val;
+                break;
+            case 'days':
+                newLabs[index].days = val;
+                break;
+            case 'startTime':
+                newLabs[index].startTime = val;
+                break;
+            case 'startAmPm':
+                newLabs[index].startAmPm = val;
+                break;
+            case 'endTime':
+                newLabs[index].endTime = val;
+                break;
+            case 'endAmPm':
+                newLabs[index].endAmPm = val;
+                break;
+            default:
+                break;
+        }
         setLabs(newLabs); 
-        console.log("labs before map:")
-        console.log(labs);
-    }
-    function changeDays(val, id) {
-        const newLabs = [...labs];
-        const index = newLabs.findIndex(lab => lab.labId === id);
-        newLabs[index].days = val;
-        setLabs(newLabs); 
-    }
-
-    function changeStart(val, id) {
-        const newLabs = [...labs];
-        const index = newLabs.findIndex(lab => lab.labId === id);
-        newLabs[index].startTime = val;
-        setLabs(newLabs); 
-    }
-
-    function changeStartAmPm(val, id) {
-        const newLabs = [...labs];
-        const index = newLabs.findIndex(lab => lab.labId === id);
-        newLabs[index].startAmPm = val;
-        setLabs(newLabs); 
-    }
-
-    function changeEnd(val, id) {
-        const newLabs = [...labs];
-        const index = newLabs.findIndex(lab => lab.labId === id);
-        newLabs[index].endTime = val;
-        setLabs(newLabs); 
-    }
-
-    function changeEndAmPm(val, id) {
-        const newLabs = [...labs];
-        const index = newLabs.findIndex(lab => lab.labId === id);
-        newLabs[index].endAmPm = val;
-        setLabs(newLabs); 
+        
     }
 
     function deleteLab(val){
@@ -77,6 +64,8 @@ export default function LabList() {
                 Lab List
             </LabHeader>
             <ContentWrap>
+                {console.log("labs: ")}
+                {console.log(labs)}
                 {labs.map((lab) => {
                     const { labId,  
                             labName,
@@ -97,14 +86,8 @@ export default function LabList() {
                             startAmPm = {startAmPm}
                             endTime = {endTime}
                             endAmPm = {endAmPm}
-                            changeLabName = {changeLabName}
-                            changeDays = {changeDays}
-                            changeStart = {changeStart}
-                            changeStartAmPm = {changeStartAmPm}
-                            changeEnd = {changeEnd}
-                            changeEndAmPm = {changeEndAmPm}
+                            changeLabInfo = {changeLabInfo}
                             deleteLab = {deleteLab}
-                            //courseList={courseList}
                         />
                     );
                 })}
@@ -113,7 +96,7 @@ export default function LabList() {
                     onClick={() => setLabs([ ...labs, 
                         {labId: uniqid(),
                             labName: '',
-                            days: '',
+                            days: [''],
                             startTime: '',
                             startAmPm: '',
                             endTime: '',
