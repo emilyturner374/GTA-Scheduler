@@ -1,5 +1,3 @@
-//{ useState } from 'react';
-//{ useState } from 'react';
 import { BsXCircle } from 'react-icons/bs';
 import  { CourseInfoWrap,
         InputBox,
@@ -11,19 +9,18 @@ import  { CourseInfoWrap,
         DayBtn,
         DeleteCourseBtn }
         from './CourseElements';
-       
+
 export default function Course(
             { studentId,
+            days,
             courseId, 
             courseName,
-            days,
             startTime,
-            startAmPm,
             endTime,
-            endAmPm,
             changeCourseInfo,
             deleteCourse}
-        ){    
+        ){   
+
         return(
             <CourseInfoWrap>
                 <InputBox 
@@ -33,32 +30,42 @@ export default function Course(
                 />
                 <DaysWrap>
                     <DayBtn 
+                        selected = {days.findIndex(day => day === "Monday") === -1}
                         value="Monday" 
                         type="button"
+                        onClick = { e => changeCourseInfo(e.target.value, studentId, courseId, "days")}
                     >
                             Mon
                     </DayBtn>
                     <DayBtn 
+                        selected = {days.findIndex(day => day === "Tuesday") === -1}
                         value="Tuesday" 
                         type="button"
+                        onClick = { e => changeCourseInfo(e.target.value, studentId, courseId, "days")}
                     >
                         Tue
                     </DayBtn>
                     <DayBtn 
+                        selected = {days.findIndex(day => day === "Wednesday") === -1}
                         value="Wednesday" 
                         type="button"
+                        onClick = { e => changeCourseInfo(e.target.value, studentId, courseId, "days")}
                     >
                         Wed
                     </DayBtn>
                     <DayBtn 
+                        selected = {days.findIndex(day => day === "Thursday") === -1}
                         value="Thursday" 
                         type="button"
+                        onClick = { e => changeCourseInfo(e.target.value, studentId, courseId, "days")}
                     >
                         Thu
                     </DayBtn>
                     <DayBtn 
+                        selected = {days.findIndex(day => day === "Friday") === -1}
                         value="Friday" 
                         type="button"
+                        onClick = { e => changeCourseInfo(e.target.value, studentId, courseId, "days")}
                     >
                         Fri
                     </DayBtn>

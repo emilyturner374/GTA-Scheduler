@@ -12,27 +12,32 @@ const defaultLabVals = {
     //so empty entries can still be deleted
     labId: uniqid(),
     labName: '',
-    days: [''],
+    days: [],
     startTime: '',
     startAmPm: '',
     endTime: '',
     endAmPm: '',
-    //courseList: []
 };
 
-export default function LabList() {
+export default function LabList(setLabList) {
     const [labs, setLabs] = useState([defaultLabVals]);
     
     function changeLabInfo(val, id, operation) {
         const newLabs = [...labs];
         const index = newLabs.findIndex(lab => lab.labId === id);
-        
+
         switch(operation){
             case 'labName':
                 newLabs[index].labName = val;
                 break;
             case 'days':
-                newLabs[index].days = val;
+                const dayIndex = newLabs[index].days.findIndex(day => day === val);
+                if(dayIndex === -1){
+                    newLabs[index].days.push(val);
+                }
+                else{
+                    newLabs[index].days = [...newLabs[index].days.filter(day => day !== val)]
+                }
                 break;
             case 'startTime':
                 newLabs[index].startTime = val;
@@ -49,13 +54,15 @@ export default function LabList() {
             default:
                 break;
         }
+       
         setLabs(newLabs); 
         
     }
 
     function deleteLab(val){
-        console.log(labs.filter(lab => lab.labId !== val));
-        return setLabs(prev=>prev.filter(lab => lab.labId !== val));
+        const newLabs = labs.filter(lab => lab.labId !== val);
+       
+        return setLabs(newLabs);
     }
 
     return(
@@ -66,15 +73,13 @@ export default function LabList() {
             <ContentWrap>
                 {console.log("labs: ")}
                 {console.log(labs)}
+                {() => setLabList(labs)}
                 {labs.map((lab) => {
                     const { labId,  
                             labName,
                             days,
                             startTime,
-                            startAmPm,
-                            endTime,
-                            endAmPm,} = lab;
-                    console.log(labs);
+                            endTime,} = lab;
 
                     return(
                         <Lab
@@ -83,9 +88,7 @@ export default function LabList() {
                             labName = {labName}
                             days = {days}
                             startTime = {startTime}
-                            startAmPm = {startAmPm}
                             endTime = {endTime}
-                            endAmPm = {endAmPm}
                             changeLabInfo = {changeLabInfo}
                             deleteLab = {deleteLab}
                         />
@@ -96,7 +99,7 @@ export default function LabList() {
                     onClick={() => setLabs([ ...labs, 
                         {labId: uniqid(),
                             labName: '',
-                            days: [''],
+                            days: [],
                             startTime: '',
                             startAmPm: '',
                             endTime: '',

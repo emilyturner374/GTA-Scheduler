@@ -27,12 +27,12 @@ export const LabHeader = styled.div`
 `
 
 export const ContentWrap = styled.div`
-    width: 1200px;
+    width: 1120px;
     height: auto;
     //border: #707070 solid 1px;
     display: flex;
     align-items: center;
-    justify-content: top;
+    justify-content: center;
     flex-direction: column;
     font-family: Helvetica;
     font-size: 20px;
