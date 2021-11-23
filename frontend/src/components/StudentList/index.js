@@ -10,7 +10,7 @@ import { StudentContainer,
 const defaultCourseVals = {
     courseId: uniqid(),
     courseName: '',
-    days: [''],
+    days: [],
     startTime: '',
     startAmPm: '',
     endTime: '',
@@ -18,21 +18,20 @@ const defaultCourseVals = {
 };
 
 const defaultStudentVals = {
-    //Make default mNumber a random number
-    //so empty entries can still be deleted
     id: uniqid(),
     mNumber: '',
     studentName: '',
     courses: [defaultCourseVals]
 };
 
-export default function StudentList() {
+export default function StudentList(setStudentList) {
     const [students, setStudents] = useState([defaultStudentVals]);
     
     function changeStudentName(val, id) {
         const newStudents = [...students];
         const index = newStudents.findIndex(student => student.id === id);
         newStudents[index].studentName = val;
+  
         return setStudents(newStudents); 
     }
     
@@ -40,11 +39,14 @@ export default function StudentList() {
         const newStudents = [...students];
         const index = newStudents.findIndex(student => student.id === id);
         newStudents[index].mNumber = val;
+       
         return setStudents(newStudents); 
     }
 
     function deleteStudent(id){
-        return setStudents(prev=>prev.filter(student => student.id !== id));
+        const newStudents = students.filter(student => student.id !== id);
+  
+        return setStudents(newStudents);
     }
 
     function changeCourseInfo(val, studentId, courseId, operation) {
@@ -56,7 +58,16 @@ export default function StudentList() {
                 newStudents[studentIndex].courses[courseIndex].courseName = val;
                 break;
             case 'days':
-                newStudents[studentIndex].courses[courseIndex].days = val;
+                //newStudents[studentIndex].courses[courseIndex].days = val;
+                const dayIndex = newStudents[studentIndex].courses[courseIndex].days.findIndex(day => day === val);
+                //This day needs to be selected
+                if(dayIndex === -1){
+                    newStudents[studentIndex].courses[courseIndex].days.push(val);
+                }
+                //This day needs to be deselected
+                else{
+                    newStudents[studentIndex].courses[courseIndex].days = [...newStudents[studentIndex].courses[courseIndex].days.filter(day => day !== val)];
+                }
                 break;
             case 'startTime':
                 newStudents[studentIndex].courses[courseIndex].startTime = val;
@@ -73,6 +84,7 @@ export default function StudentList() {
             default:
                 break;
         }
+       
         return setStudents(newStudents); 
     }
 
@@ -81,17 +93,19 @@ export default function StudentList() {
         const studentIndex = newStudents.findIndex(student => student.id === studentId);
         newStudents[studentIndex].courses.push({courseId: uniqid(),
                                                 courseName: '',
-                                                days: [''],
+                                                days: [],
                                                 startTime: '',
                                                 startAmPm: '',
                                                 endTime: '',
                                                 endAmPm: ''});
+       
         return setStudents(newStudents);                                       
     }
     function deleteCourse(studentId, courseId){
         const newStudents = [...students];
         const studentIndex = newStudents.findIndex(student => student.id === studentId);
         newStudents[studentIndex].courses = [...newStudents[studentIndex].courses.filter(course => course.courseId !== courseId)];
+       
         return setStudents(newStudents);
     }
 
@@ -103,6 +117,7 @@ export default function StudentList() {
             <ContentWrap>
                 {console.log("students: ")}
                 {console.log(students)}
+                {() => setStudentList(students)}
                 {students.map((student) => {
                     const { mNumber, studentName, id, courses } = student;
                     return(
@@ -133,7 +148,7 @@ export default function StudentList() {
                                 courses: [{   
                                     courseId: uniqid(),
                                     courseName: '',
-                                    days: [''],
+                                    days: [],
                                     startTime: '',
                                     startAmPm: '',
                                     endTime: '',

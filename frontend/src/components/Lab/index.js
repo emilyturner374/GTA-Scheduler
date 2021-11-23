@@ -16,12 +16,11 @@ export default function Lab(
                         labName,
                         days,
                         startTime,
-                        startAmPm,
                         endTime,
-                        endAmPm,
                         changeLabInfo,
                         deleteLab}
 ){    
+
     return(
         <LabInfoWrap>
             <LabInfo>
@@ -32,32 +31,42 @@ export default function Lab(
                 />
                 <DaysWrap>
                     <DayBtn 
+                        selected = {days.findIndex(day => day === "Monday") === -1}
                         value="Monday" 
                         type="button"
+                        onClick = { e => changeLabInfo(e.target.value, labId, "days")}
                     >
                             Mon
                     </DayBtn>
                     <DayBtn 
+                        selected = {days.findIndex(day => day === "Tuesday") === -1}
                         value="Tuesday" 
                         type="button"
+                        onClick = { e => changeLabInfo(e.target.value, labId, "days")}
                     >
                         Tue
                     </DayBtn>
                     <DayBtn 
+                        selected = {days.findIndex(day => day === "Wednesday") === -1}
                         value="Wednesday" 
                         type="button"
+                        onClick = { e => changeLabInfo(e.target.value, labId, "days")}
                     >
                         Wed
                     </DayBtn>
                     <DayBtn 
+                        selected = {days.findIndex(day => day === "Thursday") === -1}
                         value="Thursday" 
                         type="button"
+                        onClick = { e => changeLabInfo(e.target.value, labId, "days")}
                     >
                         Thu
                     </DayBtn>
                     <DayBtn 
+                        selected = {days.findIndex(day => day === "Friday") === -1}
                         value="Friday" 
                         type="button"
+                        onClick = { e => changeLabInfo(e.target.value, labId, "days")}
                     >
                         Fri
                     </DayBtn>

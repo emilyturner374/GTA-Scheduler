@@ -101,13 +101,13 @@ export const DaysWrap = styled.div`
 export const DayBtn = styled.button` 
     width: 50px;
     height: 35px;
-    background: #ffffff;
+    background: ${props => props.selected ? "#ffffff" : "#357bb8"};
     border: #707070 solid 1px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: Helvetica;
-    color: #242424;
+    color: ${props => props.selected ? "#242424" : "#ffffff"};
     
     &:hover {
         background: #357bb8;

@@ -46,7 +46,7 @@ export const AddStudentBtn = styled.button`
     justify-content: center;
     font-family: Helvetica;
     color: #242424;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
     &:hover {
         background: #e0e0e0;
     }
